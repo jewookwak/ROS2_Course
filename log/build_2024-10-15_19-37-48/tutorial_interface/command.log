@@ -1,0 +1,1 @@
+Invoking command in '/home/jewoo/ros2_ws/build/tutorial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake /home/jewoo/ros2_ws/src/tutorial_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/install/tutorial_interface

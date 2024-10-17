@@ -1,0 +1,2 @@
+Invoking command in '/home/jewoo/ros2_ws/build/tutorial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/build/tutorial_interface -- -j12 -l12
+Invoked command in '/home/jewoo/ros2_ws/build/tutorial_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/build/tutorial_interface -- -j12 -l12

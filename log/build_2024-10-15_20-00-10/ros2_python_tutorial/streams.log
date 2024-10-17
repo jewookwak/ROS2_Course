@@ -1,0 +1,24 @@
+[1.124s] Invoking command in '/home/jewoo/ros2_ws/build/ros2_python_tutorial': PYTHONPATH=/home/jewoo/ros2_ws/build/ros2_python_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jewoo/ros2_ws/build/ros2_python_tutorial/build --no-deps symlink_data
+[1.653s] running develop
+[1.654s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.654s]   warnings.warn(
+[1.951s] running egg_info
+[1.951s] writing ros2_python_tutorial.egg-info/PKG-INFO
+[1.951s] writing dependency_links to ros2_python_tutorial.egg-info/dependency_links.txt
+[1.951s] writing entry points to ros2_python_tutorial.egg-info/entry_points.txt
+[1.952s] writing requirements to ros2_python_tutorial.egg-info/requires.txt
+[1.952s] writing top-level names to ros2_python_tutorial.egg-info/top_level.txt
+[1.954s] reading manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'
+[1.956s] writing manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'
+[1.958s] running build_ext
+[1.958s] Creating /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages/ros2-python-tutorial.egg-link (link to .)
+[1.960s] Installing client script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.960s] Installing custom_msg_publisher script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.961s] Installing listener script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.961s] Installing python_node script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.961s] Installing server script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.961s] Installing talker script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.962s] 
+[1.962s] Installed /home/jewoo/ros2_ws/build/ros2_python_tutorial
+[1.962s] running symlink_data
+[2.001s] Invoked command in '/home/jewoo/ros2_ws/build/ros2_python_tutorial' returned '0': PYTHONPATH=/home/jewoo/ros2_ws/build/ros2_python_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jewoo/ros2_ws/build/ros2_python_tutorial/build --no-deps symlink_data

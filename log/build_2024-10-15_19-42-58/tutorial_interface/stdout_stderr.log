@@ -1,0 +1,7 @@
+failed to create symbolic link '/home/jewoo/ros2_ws/build/tutorial_interface/ament_cmake_python/tutorial_interface/tutorial_interface' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tutorial_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tutorial_interface] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_tutorial_interface.dir/all] 오류 2
+gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[ 10%] Built target tutorial_interface__rosidl_generator_c
+[ 12%] Built target tutorial_interface__cpp
+gmake: *** [Makefile:146: all] 오류 2

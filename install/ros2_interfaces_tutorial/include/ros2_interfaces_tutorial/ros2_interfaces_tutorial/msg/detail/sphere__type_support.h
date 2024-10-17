@@ -1,0 +1,1 @@
+/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial/rosidl_generator_c/ros2_interfaces_tutorial/msg/detail/sphere__type_support.h

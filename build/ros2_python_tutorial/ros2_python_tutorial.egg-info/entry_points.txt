@@ -1,0 +1,14 @@
+[console_scripts]
+client = ros2_python_tutorial.client_member_function:main
+custom_msg_publisher = ros2_python_tutorial.custom_msg_publisher:main
+double_listener = ros2_python_tutorial.p1_subscriber:main
+double_talker = ros2_python_tutorial.p1_publisher:main
+fast_agent = ros2_python_tutorial.p2_fast_agent:main
+listener = ros2_python_tutorial.subscriber_member_function:main
+python_node = ros2_python_tutorial.python_node:main
+server = ros2_python_tutorial.service_member_function:main
+slow_agent = ros2_python_tutorial.p2_slow_agent:main
+talker = ros2_python_tutorial.publisher_member_function:main
+toggle_led_client = ros2_python_tutorial.p3_led_client:main
+toggle_led_service = ros2_python_tutorial.p3_led_service:main
+

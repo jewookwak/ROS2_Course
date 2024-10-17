@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interfaces_tutorial/msg/Spheres.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interfaces_tutorial/msg/Sphere.idl"
+
+module ros2_interfaces_tutorial {
+  module msg {
+    struct Spheres {
+      sequence<ros2_interfaces_tutorial::msg::Sphere> spheres;
+    };
+  };
+};

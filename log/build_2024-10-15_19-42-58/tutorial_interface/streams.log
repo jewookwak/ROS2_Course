@@ -1,0 +1,9 @@
+[0.464s] Invoking command in '/home/jewoo/ros2_ws/build/tutorial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/build/tutorial_interface -- -j12 -l12
+[0.532s] failed to create symbolic link '/home/jewoo/ros2_ws/build/tutorial_interface/ament_cmake_python/tutorial_interface/tutorial_interface' because existing path cannot be removed: Is a directory
+[0.534s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tutorial_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tutorial_interface] 오류 1
+[0.534s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_tutorial_interface.dir/all] 오류 2
+[0.534s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.536s] [ 10%] Built target tutorial_interface__rosidl_generator_c
+[0.536s] [ 12%] Built target tutorial_interface__cpp
+[0.539s] gmake: *** [Makefile:146: all] 오류 2
+[0.542s] Invoked command in '/home/jewoo/ros2_ws/build/tutorial_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/build/tutorial_interface -- -j12 -l12

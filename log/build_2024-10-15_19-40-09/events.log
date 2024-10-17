@@ -1,0 +1,393 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (ros2_cpp_tutorial) JobQueued: {'identifier': 'ros2_cpp_tutorial', 'dependencies': OrderedDict()}
+[0.000332] (ros2_python_tutorial) JobQueued: {'identifier': 'ros2_python_tutorial', 'dependencies': OrderedDict()}
+[0.000386] (tutorial_interface) JobQueued: {'identifier': 'tutorial_interface', 'dependencies': OrderedDict()}
+[0.000421] (ros2_cpp_tutorial) JobStarted: {'identifier': 'ros2_cpp_tutorial'}
+[0.011110] (ros2_python_tutorial) JobStarted: {'identifier': 'ros2_python_tutorial'}
+[0.020550] (tutorial_interface) JobStarted: {'identifier': 'tutorial_interface'}
+[0.030054] (ros2_cpp_tutorial) JobProgress: {'identifier': 'ros2_cpp_tutorial', 'progress': 'cmake'}
+[0.031144] (ros2_cpp_tutorial) Command: {'cmd': ['/usr/bin/cmake', '/home/jewoo/ros2_ws/src/ros2_cpp_tutorial', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/install/ros2_cpp_tutorial'], 'cwd': '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jewoo'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/172/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIO_MODULE_DIR', '/home/jewoo/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/jewoo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/jewoo/snap/code/172'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-c8a6cc9a-1.94-main.sock'), ('GTK_IM_MODULE_FILE', '/home/jewoo/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1002'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '172'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7180'), ('_colcon_cd_root', '/opt/ros/humble/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:10736'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '384ff738'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jewoo/.local/bin:/opt/ros/humble/bin:/home/jewoo/.local/bin:/home/jewoo/.local/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1505,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1505'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '605e65c35052471c9b3b30b84372df85'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/172'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/jewoo/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/jewoo/snap/code/172/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial'), ('SNAP_COOKIE', 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/172/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('SNAP_NAME', 'code'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/jewoo/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/jewoo'), ('VSCODE_CODE_CACHE_PATH', '/home/jewoo/.config/Code/CachedData/384ff7382de624fb94dbaf6da11977bba1ecd427'), ('XDG_DATA_DIRS', '/home/jewoo/snap/code/172/.local/share:/home/jewoo/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages'), ('SNAP', '/snap/code/172'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial'), ('VSCODE_PID', '7228')]), 'shell': False}
+[0.098707] (-) TimerEvent: {}
+[0.199031] (-) TimerEvent: {}
+[0.299457] (-) TimerEvent: {}
+[0.399808] (-) TimerEvent: {}
+[0.500161] (-) TimerEvent: {}
+[0.528038] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.529027] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.529200] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.529317] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.529438] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.529561] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.530217] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.530329] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.530617] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.530803] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.530915] (tutorial_interface) JobProgress: {'identifier': 'tutorial_interface', 'progress': 'cmake'}
+[0.532139] (tutorial_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/jewoo/ros2_ws/src/tutorial_interface', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/install/tutorial_interface'], 'cwd': '/home/jewoo/ros2_ws/build/tutorial_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jewoo'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/172/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIO_MODULE_DIR', '/home/jewoo/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/jewoo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/jewoo/snap/code/172'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-c8a6cc9a-1.94-main.sock'), ('GTK_IM_MODULE_FILE', '/home/jewoo/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1002'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '172'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7180'), ('_colcon_cd_root', '/opt/ros/humble/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:10736'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '384ff738'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jewoo/.local/bin:/opt/ros/humble/bin:/home/jewoo/.local/bin:/home/jewoo/.local/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1505,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1505'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '605e65c35052471c9b3b30b84372df85'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/172'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/jewoo/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/jewoo/snap/code/172/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial'), ('SNAP_COOKIE', 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/172/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('SNAP_NAME', 'code'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/jewoo/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/build/tutorial_interface'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/jewoo'), ('VSCODE_CODE_CACHE_PATH', '/home/jewoo/.config/Code/CachedData/384ff7382de624fb94dbaf6da11977bba1ecd427'), ('XDG_DATA_DIRS', '/home/jewoo/snap/code/172/.local/share:/home/jewoo/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages'), ('SNAP', '/snap/code/172'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial'), ('VSCODE_PID', '7228')]), 'shell': False}
+[0.554174] (tutorial_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600273] (-) TimerEvent: {}
+[0.630550] (ros2_cpp_tutorial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700366] (-) TimerEvent: {}
+[0.728375] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.767924] (tutorial_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.783975] (tutorial_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800506] (-) TimerEvent: {}
+[0.806224] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900607] (-) TimerEvent: {}
+[0.906390] (tutorial_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.935922] (ros2_cpp_tutorial) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.936364] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/include>\n'}
+[0.936597] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.938199] (ros2_cpp_tutorial) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.941106] (ros2_cpp_tutorial) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.941508] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.942151] (ros2_cpp_tutorial) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.944724] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.954101] (tutorial_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.959071] (tutorial_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.969559] (tutorial_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.976798] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Generating done\n'}
+[0.981365] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Build files have been written to: /home/jewoo/ros2_ws/build/ros2_cpp_tutorial\n'}
+[0.987974] (tutorial_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.996416] (ros2_cpp_tutorial) CommandEnded: {'returncode': 0}
+[1.001017] (-) TimerEvent: {}
+[1.002062] (ros2_cpp_tutorial) JobProgress: {'identifier': 'ros2_cpp_tutorial', 'progress': 'build'}
+[1.002385] (ros2_cpp_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial', '--', '-j12', '-l12'], 'cwd': '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jewoo'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/172/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIO_MODULE_DIR', '/home/jewoo/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/jewoo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/jewoo/snap/code/172'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-c8a6cc9a-1.94-main.sock'), ('GTK_IM_MODULE_FILE', '/home/jewoo/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1002'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '172'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7180'), ('_colcon_cd_root', '/opt/ros/humble/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:10736'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '384ff738'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jewoo/.local/bin:/opt/ros/humble/bin:/home/jewoo/.local/bin:/home/jewoo/.local/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1505,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1505'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '605e65c35052471c9b3b30b84372df85'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/172'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/jewoo/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/jewoo/snap/code/172/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial'), ('SNAP_COOKIE', 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/172/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('SNAP_NAME', 'code'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/jewoo/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/jewoo'), ('VSCODE_CODE_CACHE_PATH', '/home/jewoo/.config/Code/CachedData/384ff7382de624fb94dbaf6da11977bba1ecd427'), ('XDG_DATA_DIRS', '/home/jewoo/snap/code/172/.local/share:/home/jewoo/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages'), ('SNAP', '/snap/code/172'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial'), ('VSCODE_PID', '7228')]), 'shell': False}
+[1.012719] (tutorial_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.071223] (ros2_cpp_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[1.073401] (ros2_cpp_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.076512] (ros2_cpp_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.091022] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[1.101149] (-) TimerEvent: {}
+[1.110743] (tutorial_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.112232] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.119217] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.163715] (ros2_python_tutorial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jewoo/ros2_ws/build/ros2_python_tutorial/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/jewoo/ros2_ws/build/ros2_python_tutorial', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/jewoo', 'LANGUAGE': 'ko:en', 'USER': 'jewoo', 'SNAP_COMMON': '/var/snap/code/common', 'LC_TIME': 'ko_KR.UTF-8', 'VSCODE_NLS_CONFIG': '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/172/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}', 'GIO_MODULE_DIR': '/home/jewoo/snap/code/common/.cache/gio-modules', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SNAP_UID': '1000', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/usr/lib/x86_64-linux-gnu:', 'HOME': '/home/jewoo', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.94.2', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/jewoo/snap/code/172', 'GTK_PATH': '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-c8a6cc9a-1.94-main.sock', 'GTK_IM_MODULE_FILE': '/home/jewoo/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': '1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1002', 'SYSTEMD_EXEC_PID': '1565', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '172', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7180', '_colcon_cd_root': '/opt/ros/humble/', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'IM_CONFIG_PHASE': '1', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/jewoo/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jewoo', '_': '/usr/bin/colcon', 'SNAP_CONTEXT': 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt', 'SUMO_HOME': '/usr/share/sumo', 'JOURNAL_STREAM': '8:10736', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': '384ff738', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'jewoo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'code', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/jewoo/.local/bin:/opt/ros/humble/bin:/home/jewoo/.local/bin:/home/jewoo/.local/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1505,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1505', 'VSCODE_AMD_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GTK_EXE_PREFIX': '/snap/code/172/usr', 'INVOCATION_ID': '605e65c35052471c9b3b30b84372df85', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'SNAP_DATA': '/var/snap/code/172', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/172/usr/lib/locale', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': '', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SNAP_USER_COMMON': '/home/jewoo/snap/code/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/jewoo/snap/code/172/.local/share/glib-2.0/schemas', 'SNAP_ARCH': 'amd64', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial', 'SNAP_COOKIE': 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'GDK_PIXBUF_MODULEDIR': '/snap/code/172/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'SNAP_NAME': 'code', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GDK_PIXBUF_MODULE_FILE': '/home/jewoo/snap/code/common/.cache/gdk-pixbuf-loaders.cache', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'SNAP_LAUNCHER_ARCH_TRIPLET': 'x86_64-linux-gnu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jewoo/ros2_ws/build/ros2_python_tutorial', 'VSCODE_CLI': '1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SNAP_REAL_HOME': '/home/jewoo', 'VSCODE_CODE_CACHE_PATH': '/home/jewoo/.config/Code/CachedData/384ff7382de624fb94dbaf6da11977bba1ecd427', 'XDG_DATA_DIRS': '/home/jewoo/snap/code/172/.local/share:/home/jewoo/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'PYTHONPATH': '/home/jewoo/ros2_ws/build/ros2_python_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages', 'SNAP': '/snap/code/172', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'CMAKE_PREFIX_PATH': '/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial', 'VSCODE_PID': '7228'}, 'shell': False}
+[1.171873] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[1.201283] (-) TimerEvent: {}
+[1.264185] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 66%] Built target cpp_node\n'}
+[1.301424] (-) TimerEvent: {}
+[1.401747] (-) TimerEvent: {}
+[1.502093] (-) TimerEvent: {}
+[1.602516] (-) TimerEvent: {}
+[1.638135] (tutorial_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.668836] (ros2_python_tutorial) StdoutLine: {'line': b'running develop\n'}
+[1.669526] (ros2_python_tutorial) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.669816] (ros2_python_tutorial) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.702601] (-) TimerEvent: {}
+[1.802949] (-) TimerEvent: {}
+[1.903295] (-) TimerEvent: {}
+[1.973574] (ros2_python_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[1.973899] (ros2_python_tutorial) StdoutLine: {'line': b'writing ros2_python_tutorial.egg-info/PKG-INFO\n'}
+[1.974194] (ros2_python_tutorial) StdoutLine: {'line': b'writing dependency_links to ros2_python_tutorial.egg-info/dependency_links.txt\n'}
+[1.974462] (ros2_python_tutorial) StdoutLine: {'line': b'writing entry points to ros2_python_tutorial.egg-info/entry_points.txt\n'}
+[1.974724] (ros2_python_tutorial) StdoutLine: {'line': b'writing requirements to ros2_python_tutorial.egg-info/requires.txt\n'}
+[1.974976] (ros2_python_tutorial) StdoutLine: {'line': b'writing top-level names to ros2_python_tutorial.egg-info/top_level.txt\n'}
+[1.978316] (ros2_python_tutorial) StdoutLine: {'line': b"reading manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'\n"}
+[1.979884] (ros2_python_tutorial) StdoutLine: {'line': b"writing manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'\n"}
+[1.982065] (ros2_python_tutorial) StdoutLine: {'line': b'running build_ext\n'}
+[1.982394] (ros2_python_tutorial) StdoutLine: {'line': b'Creating /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages/ros2-python-tutorial.egg-link (link to .)\n'}
+[1.983801] (ros2_python_tutorial) StdoutLine: {'line': b'Installing client script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[1.984129] (ros2_python_tutorial) StdoutLine: {'line': b'Installing listener script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[1.984382] (ros2_python_tutorial) StdoutLine: {'line': b'Installing python_node script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[1.984597] (ros2_python_tutorial) StdoutLine: {'line': b'Installing server script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[1.984769] (ros2_python_tutorial) StdoutLine: {'line': b'Installing talker script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[1.985044] (ros2_python_tutorial) StdoutLine: {'line': b'\n'}
+[1.985252] (ros2_python_tutorial) StdoutLine: {'line': b'Installed /home/jewoo/ros2_ws/build/ros2_python_tutorial\n'}
+[1.985370] (ros2_python_tutorial) StdoutLine: {'line': b'running symlink_data\n'}
+[1.985602] (ros2_python_tutorial) StdoutLine: {'line': b'symbolically linking /home/jewoo/ros2_ws/build/ros2_python_tutorial/resource/ros2_python_tutorial -> /home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ament_index/resource_index/packages\n'}
+[1.985834] (ros2_python_tutorial) StdoutLine: {'line': b'symbolically linking /home/jewoo/ros2_ws/build/ros2_python_tutorial/package.xml -> /home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial\n'}
+[2.003408] (-) TimerEvent: {}
+[2.034858] (ros2_python_tutorial) CommandEnded: {'returncode': 0}
+[2.058305] (ros2_python_tutorial) JobEnded: {'identifier': 'ros2_python_tutorial', 'rc': 0}
+[2.103541] (-) TimerEvent: {}
+[2.203930] (-) TimerEvent: {}
+[2.304292] (-) TimerEvent: {}
+[2.404631] (-) TimerEvent: {}
+[2.468177] (tutorial_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.504734] (-) TimerEvent: {}
+[2.605095] (-) TimerEvent: {}
+[2.705461] (-) TimerEvent: {}
+[2.803867] (tutorial_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.805590] (-) TimerEvent: {}
+[2.847295] (tutorial_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.889863] (tutorial_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.890089] (tutorial_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.890209] (tutorial_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.905705] (-) TimerEvent: {}
+[3.006105] (tutorial_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.006472] (-) TimerEvent: {}
+[3.009191] (tutorial_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.021292] (tutorial_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.104808] (tutorial_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[3.106550] (-) TimerEvent: {}
+[3.111229] (tutorial_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/jewoo/ros2_ws/build/tutorial_interface\n'}
+[3.126180] (tutorial_interface) CommandEnded: {'returncode': 0}
+[3.127750] (tutorial_interface) JobProgress: {'identifier': 'tutorial_interface', 'progress': 'build'}
+[3.129511] (tutorial_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jewoo/ros2_ws/build/tutorial_interface', '--', '-j12', '-l12'], 'cwd': '/home/jewoo/ros2_ws/build/tutorial_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jewoo'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/172/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIO_MODULE_DIR', '/home/jewoo/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/jewoo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/jewoo/snap/code/172'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-c8a6cc9a-1.94-main.sock'), ('GTK_IM_MODULE_FILE', '/home/jewoo/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1002'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '172'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7180'), ('_colcon_cd_root', '/opt/ros/humble/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:10736'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '384ff738'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jewoo/.local/bin:/opt/ros/humble/bin:/home/jewoo/.local/bin:/home/jewoo/.local/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1505,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1505'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '605e65c35052471c9b3b30b84372df85'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/172'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/jewoo/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/jewoo/snap/code/172/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial'), ('SNAP_COOKIE', 'W-QB9fLAu5WdpjVnIpsu6mTwo8l3HaXd8SiYcr_Q7JKZzAJNKDmt'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/172/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('SNAP_NAME', 'code'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/jewoo/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/build/tutorial_interface'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/jewoo'), ('VSCODE_CODE_CACHE_PATH', '/home/jewoo/.config/Code/CachedData/384ff7382de624fb94dbaf6da11977bba1ecd427'), ('XDG_DATA_DIRS', '/home/jewoo/snap/code/172/.local/share:/home/jewoo/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages'), ('SNAP', '/snap/code/172'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial'), ('VSCODE_PID', '7228')]), 'shell': False}
+[3.202861] (tutorial_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interface__rosidl_generator_c\x1b[0m\n'}
+[3.206681] (-) TimerEvent: {}
+[3.220985] (tutorial_interface) StdoutLine: {'line': b'[  2%] Built target tutorial_interface__cpp\n'}
+[3.224436] (tutorial_interface) StderrLine: {'line': b"failed to create symbolic link '/home/jewoo/ros2_ws/build/tutorial_interface/ament_cmake_python/tutorial_interface/tutorial_interface' because existing path cannot be removed: Is a directory\n"}
+[3.226422] (tutorial_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tutorial_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tutorial_interface] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[3.229628] (tutorial_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_tutorial_interface.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[3.230353] (tutorial_interface) StderrLine: {'line': b'gmake[1]: *** \xeb\x81\x9d\xeb\x82\x98\xec\xa7\x80 \xec\x95\x8a\xec\x9d\x80 \xec\x9e\x91\xec\x97\x85\xec\x9d\x84 \xea\xb8\xb0\xeb\x8b\xa4\xeb\xa6\xac\xea\xb3\xa0 \xec\x9e\x88\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4....\n'}
+[3.230621] (tutorial_interface) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/tutorial_interface__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interface/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.230783] (tutorial_interface) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/tutorial_interface__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interface/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[3.230904] (tutorial_interface) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/tutorial_interface__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interface/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[3.244830] (tutorial_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.252662] (tutorial_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.252956] (tutorial_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.281101] (tutorial_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interface/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.283337] (tutorial_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interface/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.289165] (tutorial_interface) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interface/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.293634] (tutorial_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interface/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.300006] (tutorial_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interface/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[3.300950] (tutorial_interface) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interface/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.303341] (tutorial_interface) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interface/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[3.307224] (-) TimerEvent: {}
+[3.309665] (tutorial_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interface/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.322814] (tutorial_interface) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interface/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.407343] (-) TimerEvent: {}
+[3.512078] (-) TimerEvent: {}
+[3.613150] (-) TimerEvent: {}
+[3.714869] (-) TimerEvent: {}
+[3.817144] (-) TimerEvent: {}
+[3.821691] (tutorial_interface) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.917475] (-) TimerEvent: {}
+[4.014794] (tutorial_interface) StdoutLine: {'line': b'[ 31%] Built target tutorial_interface__rosidl_generator_c\n'}
+[4.017716] (-) TimerEvent: {}
+[4.118828] (-) TimerEvent: {}
+[4.220580] (-) TimerEvent: {}
+[4.321214] (-) TimerEvent: {}
+[4.394791] (tutorial_interface) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.421392] (-) TimerEvent: {}
+[4.501467] (tutorial_interface) StdoutLine: {'line': b'[ 36%] Built target tutorial_interface__rosidl_typesupport_cpp\n'}
+[4.521528] (-) TimerEvent: {}
+[4.621961] (-) TimerEvent: {}
+[4.724466] (-) TimerEvent: {}
+[4.764754] (tutorial_interface) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.824578] (-) TimerEvent: {}
+[4.842647] (tutorial_interface) StdoutLine: {'line': b'[ 40%] Built target tutorial_interface__rosidl_typesupport_introspection_cpp\n'}
+[4.843720] (tutorial_interface) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.924765] (-) TimerEvent: {}
+[4.980689] (tutorial_interface) StdoutLine: {'line': b'[ 44%] Built target tutorial_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[4.982734] (tutorial_interface) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[4.986152] (tutorial_interface) CommandEnded: {'returncode': 2}
+[5.024879] (-) TimerEvent: {}
+[5.125232] (-) TimerEvent: {}
+[5.184259] (tutorial_interface) JobEnded: {'identifier': 'tutorial_interface', 'rc': 2}
+[5.225382] (-) TimerEvent: {}
+[5.325732] (-) TimerEvent: {}
+[5.426050] (-) TimerEvent: {}
+[5.526417] (-) TimerEvent: {}
+[5.626812] (-) TimerEvent: {}
+[5.727155] (-) TimerEvent: {}
+[5.827508] (-) TimerEvent: {}
+[5.927842] (-) TimerEvent: {}
+[6.028204] (-) TimerEvent: {}
+[6.128548] (-) TimerEvent: {}
+[6.228891] (-) TimerEvent: {}
+[6.329218] (-) TimerEvent: {}
+[6.429595] (-) TimerEvent: {}
+[6.529969] (-) TimerEvent: {}
+[6.630312] (-) TimerEvent: {}
+[6.730749] (-) TimerEvent: {}
+[6.831110] (-) TimerEvent: {}
+[6.931560] (-) TimerEvent: {}
+[7.031914] (-) TimerEvent: {}
+[7.132285] (-) TimerEvent: {}
+[7.232606] (-) TimerEvent: {}
+[7.332964] (-) TimerEvent: {}
+[7.433321] (-) TimerEvent: {}
+[7.533681] (-) TimerEvent: {}
+[7.634026] (-) TimerEvent: {}
+[7.734353] (-) TimerEvent: {}
+[7.834734] (-) TimerEvent: {}
+[7.935077] (-) TimerEvent: {}
+[8.035402] (-) TimerEvent: {}
+[8.135745] (-) TimerEvent: {}
+[8.236157] (-) TimerEvent: {}
+[8.336519] (-) TimerEvent: {}
+[8.436864] (-) TimerEvent: {}
+[8.537222] (-) TimerEvent: {}
+[8.637595] (-) TimerEvent: {}
+[8.738076] (-) TimerEvent: {}
+[8.838440] (-) TimerEvent: {}
+[8.938781] (-) TimerEvent: {}
+[9.039117] (-) TimerEvent: {}
+[9.139522] (-) TimerEvent: {}
+[9.239855] (-) TimerEvent: {}
+[9.340182] (-) TimerEvent: {}
+[9.440484] (-) TimerEvent: {}
+[9.540909] (-) TimerEvent: {}
+[9.641242] (-) TimerEvent: {}
+[9.741583] (-) TimerEvent: {}
+[9.841940] (-) TimerEvent: {}
+[9.942268] (-) TimerEvent: {}
+[10.042658] (-) TimerEvent: {}
+[10.143030] (-) TimerEvent: {}
+[10.243432] (-) TimerEvent: {}
+[10.343819] (-) TimerEvent: {}
+[10.444195] (-) TimerEvent: {}
+[10.544627] (-) TimerEvent: {}
+[10.644992] (-) TimerEvent: {}
+[10.745375] (-) TimerEvent: {}
+[10.845870] (-) TimerEvent: {}
+[10.946246] (-) TimerEvent: {}
+[11.046618] (-) TimerEvent: {}
+[11.146975] (-) TimerEvent: {}
+[11.247311] (-) TimerEvent: {}
+[11.347606] (-) TimerEvent: {}
+[11.447943] (-) TimerEvent: {}
+[11.548243] (-) TimerEvent: {}
+[11.648618] (-) TimerEvent: {}
+[11.748974] (-) TimerEvent: {}
+[11.849333] (-) TimerEvent: {}
+[11.949691] (-) TimerEvent: {}
+[12.050078] (-) TimerEvent: {}
+[12.150476] (-) TimerEvent: {}
+[12.250866] (-) TimerEvent: {}
+[12.351206] (-) TimerEvent: {}
+[12.451563] (-) TimerEvent: {}
+[12.551879] (-) TimerEvent: {}
+[12.652233] (-) TimerEvent: {}
+[12.752617] (-) TimerEvent: {}
+[12.852957] (-) TimerEvent: {}
+[12.953320] (-) TimerEvent: {}
+[13.053611] (-) TimerEvent: {}
+[13.153937] (-) TimerEvent: {}
+[13.254281] (-) TimerEvent: {}
+[13.354649] (-) TimerEvent: {}
+[13.455023] (-) TimerEvent: {}
+[13.555424] (-) TimerEvent: {}
+[13.655799] (-) TimerEvent: {}
+[13.756196] (-) TimerEvent: {}
+[13.856595] (-) TimerEvent: {}
+[13.956946] (-) TimerEvent: {}
+[14.057302] (-) TimerEvent: {}
+[14.157605] (-) TimerEvent: {}
+[14.183616] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[14.257709] (-) TimerEvent: {}
+[14.358051] (-) TimerEvent: {}
+[14.437511] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 83%] Built target talker\n'}
+[14.458192] (-) TimerEvent: {}
+[14.558513] (-) TimerEvent: {}
+[14.658857] (-) TimerEvent: {}
+[14.759223] (-) TimerEvent: {}
+[14.859537] (-) TimerEvent: {}
+[14.959870] (-) TimerEvent: {}
+[15.060209] (-) TimerEvent: {}
+[15.160564] (-) TimerEvent: {}
+[15.260950] (-) TimerEvent: {}
+[15.361405] (-) TimerEvent: {}
+[15.461812] (-) TimerEvent: {}
+[15.562161] (-) TimerEvent: {}
+[15.662473] (-) TimerEvent: {}
+[15.762893] (-) TimerEvent: {}
+[15.863194] (-) TimerEvent: {}
+[15.963504] (-) TimerEvent: {}
+[16.063830] (-) TimerEvent: {}
+[16.164153] (-) TimerEvent: {}
+[16.264510] (-) TimerEvent: {}
+[16.364851] (-) TimerEvent: {}
+[16.465183] (-) TimerEvent: {}
+[16.565518] (-) TimerEvent: {}
+[16.665922] (-) TimerEvent: {}
+[16.766283] (-) TimerEvent: {}
+[16.866612] (-) TimerEvent: {}
+[16.967030] (-) TimerEvent: {}
+[17.067401] (-) TimerEvent: {}
+[17.167945] (-) TimerEvent: {}
+[17.268457] (-) TimerEvent: {}
+[17.368785] (-) TimerEvent: {}
+[17.469138] (-) TimerEvent: {}
+[17.569508] (-) TimerEvent: {}
+[17.669872] (-) TimerEvent: {}
+[17.770233] (-) TimerEvent: {}
+[17.870577] (-) TimerEvent: {}
+[17.970885] (-) TimerEvent: {}
+[18.071240] (-) TimerEvent: {}
+[18.171552] (-) TimerEvent: {}
+[18.271884] (-) TimerEvent: {}
+[18.372228] (-) TimerEvent: {}
+[18.472611] (-) TimerEvent: {}
+[18.572997] (-) TimerEvent: {}
+[18.673367] (-) TimerEvent: {}
+[18.773800] (-) TimerEvent: {}
+[18.874225] (-) TimerEvent: {}
+[18.974638] (-) TimerEvent: {}
+[19.075031] (-) TimerEvent: {}
+[19.175414] (-) TimerEvent: {}
+[19.275758] (-) TimerEvent: {}
+[19.376108] (-) TimerEvent: {}
+[19.476467] (-) TimerEvent: {}
+[19.576821] (-) TimerEvent: {}
+[19.677157] (-) TimerEvent: {}
+[19.777500] (-) TimerEvent: {}
+[19.877823] (-) TimerEvent: {}
+[19.978170] (-) TimerEvent: {}
+[20.078539] (-) TimerEvent: {}
+[20.178898] (-) TimerEvent: {}
+[20.279239] (-) TimerEvent: {}
+[20.379600] (-) TimerEvent: {}
+[20.479947] (-) TimerEvent: {}
+[20.580308] (-) TimerEvent: {}
+[20.680661] (-) TimerEvent: {}
+[20.781058] (-) TimerEvent: {}
+[20.881428] (-) TimerEvent: {}
+[20.981756] (-) TimerEvent: {}
+[21.082108] (-) TimerEvent: {}
+[21.182481] (-) TimerEvent: {}
+[21.282868] (-) TimerEvent: {}
+[21.383171] (-) TimerEvent: {}
+[21.483524] (-) TimerEvent: {}
+[21.583866] (-) TimerEvent: {}
+[21.684205] (-) TimerEvent: {}
+[21.784563] (-) TimerEvent: {}
+[21.884925] (-) TimerEvent: {}
+[21.985275] (-) TimerEvent: {}
+[22.085557] (-) TimerEvent: {}
+[22.185900] (-) TimerEvent: {}
+[22.286257] (-) TimerEvent: {}
+[22.386608] (-) TimerEvent: {}
+[22.486980] (-) TimerEvent: {}
+[22.587382] (-) TimerEvent: {}
+[22.687752] (-) TimerEvent: {}
+[22.788072] (-) TimerEvent: {}
+[22.888510] (-) TimerEvent: {}
+[22.988872] (-) TimerEvent: {}
+[23.089223] (-) TimerEvent: {}
+[23.189544] (-) TimerEvent: {}
+[23.289930] (-) TimerEvent: {}
+[23.390293] (-) TimerEvent: {}
+[23.490606] (-) TimerEvent: {}
+[23.590929] (-) TimerEvent: {}
+[23.691225] (-) TimerEvent: {}
+[23.791622] (-) TimerEvent: {}
+[23.891952] (-) TimerEvent: {}
+[23.992282] (-) TimerEvent: {}
+[24.092663] (-) TimerEvent: {}
+[24.193076] (-) TimerEvent: {}
+[24.293423] (-) TimerEvent: {}
+[24.393790] (-) TimerEvent: {}
+[24.494161] (-) TimerEvent: {}
+[24.594544] (-) TimerEvent: {}
+[24.694890] (-) TimerEvent: {}
+[24.795253] (-) TimerEvent: {}
+[24.895626] (-) TimerEvent: {}
+[24.996000] (-) TimerEvent: {}
+[25.096345] (-) TimerEvent: {}
+[25.196803] (-) TimerEvent: {}
+[25.297199] (-) TimerEvent: {}
+[25.397605] (-) TimerEvent: {}
+[25.497964] (-) TimerEvent: {}
+[25.574447] (ros2_cpp_tutorial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[25.598073] (-) TimerEvent: {}
+[25.698485] (-) TimerEvent: {}
+[25.798877] (-) TimerEvent: {}
+[25.899230] (-) TimerEvent: {}
+[25.999542] (-) TimerEvent: {}
+[26.015465] (ros2_cpp_tutorial) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[26.034797] (ros2_cpp_tutorial) JobEnded: {'identifier': 'ros2_cpp_tutorial', 'rc': 'SIGINT'}
+[26.045605] (-) EventReactorShutdown: {}
