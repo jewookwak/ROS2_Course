@@ -1,0 +1,19 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/jewoo/ros2_ws/install/tutorial_interface/local/lib/python3.10/dist-packages",
+        "/home/jewoo/ros2_ws/build/ros2_python_tutorial",
+        "/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages",
+        "/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/jewoo/ros2_ws/install/tutorial_interface/local/lib/python3.10/dist-packages",
+        "/home/jewoo/ros2_ws/build/ros2_python_tutorial",
+        "/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages",
+        "/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble"
+}

@@ -1,0 +1,68 @@
+[0.016s] Invoking command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial': CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu /usr/bin/cmake --build /home/jewoo/ros2_ws/build/ros2_cpp_tutorial -- -j12 -l12
+[0.139s] [  6%] Built target talker
+[0.140s] [ 12%] Built target listener
+[0.153s] [ 18%] Built target fast_agent
+[0.153s] [ 31%] Built target slow_agent
+[0.154s] [ 31%] Built target client
+[0.155s] [ 43%] Built target p1_publisher
+[0.156s] [ 50%] Built target custom_msg_publisher
+[0.157s] [ 43%] Built target cpp_node
+[0.161s] [ 56%] Built target p1_subscriber
+[0.161s] [ 62%] Built target server
+[0.166s] [ 68%] Built target led_client
+[0.168s] [ 75%] Built target led_service
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_visualizer[0m
+[0.196s] [ 81%] Built target turtlebot_controller
+[0.200s] [ 87%] Built target square
+[0.202s] [ 93%] Built target minimal_param_node
+[0.214s] [ 96%] [32mBuilding CXX object CMakeFiles/turtlebot_visualizer.dir/src/turtlebot_visualizer.cpp.o[0m
+[4.080s] [01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:[m[K In member function ‘[01m[Kvoid TurtlebotVisualizer::timer_callback()[m[K’:
+[4.080s] [01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:53:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.080s]    53 |     for(int i=0;[01;35m[Ki<way_x.size()[m[K;i++){
+[4.080s]       |                 [01;35m[K~^~~~~~~~~~~~~[m[K
+[13.612s] [100%] [32m[1mLinking CXX executable turtlebot_visualizer[0m
+[14.388s] [100%] Built target turtlebot_visualizer
+[14.407s] Invoked command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu /usr/bin/cmake --build /home/jewoo/ros2_ws/build/ros2_cpp_tutorial -- -j12 -l12
+[14.510s] Invoking command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial': CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu /usr/bin/cmake --install /home/jewoo/ros2_ws/build/ros2_cpp_tutorial
+[14.522s] -- Install configuration: ""
+[14.523s] -- Execute custom install script
+[14.523s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/talker
+[14.524s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/listener
+[14.524s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/p1_publisher
+[14.524s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/p1_subscriber
+[14.525s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/fast_agent
+[14.525s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/slow_agent
+[14.525s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/custom_msg_publisher
+[14.526s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/server
+[14.526s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/client
+[14.527s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/led_client
+[14.527s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/led_service
+[14.527s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/cpp_node
+[14.528s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/turtlebot_controller
+[14.528s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/square
+[14.529s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/minimal_param_node
+[14.529s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/turtlebot_visualizer
+[14.530s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/cpp_parameters_launch.py
+[14.530s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/multi_turtlebot_control_launch.py
+[14.530s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/talker_listener_launch.py
+[14.530s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_control_launch.py
+[14.531s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_square_control_launch.py
+[14.531s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_visualization_launch.py
+[14.531s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlesim_mimic_launch.py
+[14.531s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlesim_multiple_launch.py
+[14.531s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/package_run_dependencies/ros2_cpp_tutorial
+[14.532s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/parent_prefix_path/ros2_cpp_tutorial
+[14.532s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/ament_prefix_path.sh
+[14.532s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/ament_prefix_path.dsv
+[14.532s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/path.sh
+[14.532s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/path.dsv
+[14.533s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.bash
+[14.533s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.sh
+[14.533s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.zsh
+[14.534s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.dsv
+[14.534s] -- Symlinking: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.dsv
+[14.547s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/packages/ros2_cpp_tutorial
+[14.547s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/cmake/ros2_cpp_tutorialConfig.cmake
+[14.547s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/cmake/ros2_cpp_tutorialConfig-version.cmake
+[14.547s] -- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.xml
+[14.551s] Invoked command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu /usr/bin/cmake --install /home/jewoo/ros2_ws/build/ros2_cpp_tutorial

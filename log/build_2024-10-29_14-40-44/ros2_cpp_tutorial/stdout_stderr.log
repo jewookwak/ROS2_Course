@@ -1,0 +1,130 @@
+[  6%] Built target fast_agent
+[ 12%] Built target talker
+[ 18%] Built target p1_publisher
+[ 25%] Built target slow_agent
+[ 37%] Built target listener
+[ 37%] Built target p1_subscriber
+[ 43%] Built target client
+[ 50%] Built target led_client
+[ 56%] Built target cpp_node
+[ 62%] Built target custom_msg_publisher
+[ 68%] Built target led_service
+[ 75%] Built target server
+[35m[1mConsolidate compiler generated dependencies of target turtlebot_visualizer[0m
+[ 84%] Built target minimal_param_node
+[ 87%] Built target square
+[ 93%] Built target turtlebot_controller
+[ 96%] [32mBuilding CXX object CMakeFiles/turtlebot_visualizer.dir/src/turtlebot_visualizer.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:1[m[K:
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:[m[K In member function ‘[01m[Kvoid TurtlebotVisualizer::timer_callback()[m[K’:
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:57:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   57 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"point: (x: %d, y: %d, z: %d)"[m[K, [32m[Kp.x[m[K, p.y, p.z);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type {aka double}[m[K
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:57:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   57 |       RCLCPP_INFO(this->get_logger(), "point: (x: [01;36m[K%d[m[K, y: %d, z: %d)", p.x, p.y, p.z);
+      |                                                   [01;36m[K~^[m[K
+      |                                                    [01;36m[K|[m[K
+      |                                                    [01;36m[Kint[m[K
+      |                                                   [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:1[m[K:
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:57:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   57 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"point: (x: %d, y: %d, z: %d)"[m[K, p.x, [32m[Kp.y[m[K, p.z);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K       [32m[K~~~[m[K
+      |                                                                              [32m[K|[m[K
+      |                                                                              [32m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type {aka double}[m[K
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:57:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   57 |       RCLCPP_INFO(this->get_logger(), "point: (x: %d, y: [01;36m[K%d[m[K, z: %d)", p.x, p.y, p.z);
+      |                                                          [01;36m[K~^[m[K
+      |                                                           [01;36m[K|[m[K
+      |                                                           [01;36m[Kint[m[K
+      |                                                          [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:1[m[K:
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:57:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   57 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"point: (x: %d, y: %d, z: %d)"[m[K, p.x, p.y, [32m[Kp.z[m[K);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K            [32m[K~~~[m[K
+      |                                                                                   [32m[K|[m[K
+      |                                                                                   [32m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type {aka double}[m[K
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:57:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   57 |       RCLCPP_INFO(this->get_logger(), "point: (x: %d, y: %d, z: [01;36m[K%d[m[K)", p.x, p.y, p.z);
+      |                                                                 [01;36m[K~^[m[K
+      |                                                                  [01;36m[K|[m[K
+      |                                                                  [01;36m[Kint[m[K
+      |                                                                 [32m[K%f[m[K
+[100%] [32m[1mLinking CXX executable turtlebot_visualizer[0m
+[100%] Built target turtlebot_visualizer
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/talker
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/listener
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/p1_publisher
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/p1_subscriber
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/fast_agent
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/slow_agent
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/custom_msg_publisher
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/server
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/client
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/led_client
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/led_service
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/cpp_node
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/turtlebot_controller
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/square
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/minimal_param_node
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/turtlebot_visualizer
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/cpp_parameters_launch.py
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/multi_turtlebot_control_launch.py
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/talker_listener_launch.py
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_control_launch.py
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_square_control_launch.py
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_visualization_launch.py
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlesim_mimic_launch.py
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlesim_multiple_launch.py
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/package_run_dependencies/ros2_cpp_tutorial
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/parent_prefix_path/ros2_cpp_tutorial
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/path.sh
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/path.dsv
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.bash
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.sh
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.zsh
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.dsv
+-- Symlinking: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.dsv
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/packages/ros2_cpp_tutorial
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/cmake/ros2_cpp_tutorialConfig.cmake
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/cmake/ros2_cpp_tutorialConfig-version.cmake
+-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.xml

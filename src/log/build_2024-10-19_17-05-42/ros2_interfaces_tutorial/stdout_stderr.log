@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_generator_c[0m
+[  2%] Built target ros2_interfaces_tutorial__cpp
+[ 12%] Built target ros2_interfaces_tutorial__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_ros2_interfaces_tutorial
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c[0m
+[ 23%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cpp
+[ 34%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_cpp
+[ 44%] Built target ros2_interfaces_tutorial__rosidl_typesupport_c
+[ 55%] Built target ros2_interfaces_tutorial__rosidl_typesupport_cpp
+[ 65%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c
+[ 76%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c
+[ 76%] Built target ros2_interfaces_tutorial
+[ 78%] Built target ros2_interfaces_tutorial__py
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_generator_py[0m
+[ 87%] Built target ros2_interfaces_tutorial__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c__pyext[0m
+[ 91%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ros2_interfaces_tutorial__rosidl_typesupport_c__pyext
+running egg_info
+writing ros2_interfaces_tutorial.egg-info/PKG-INFO
+writing dependency_links to ros2_interfaces_tutorial.egg-info/dependency_links.txt
+writing top-level names to ros2_interfaces_tutorial.egg-info/top_level.txt
+reading manifest file 'ros2_interfaces_tutorial.egg-info/SOURCES.txt'
+Traceback (most recent call last):
+  File "/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial/ament_cmake_python/ros2_interfaces_tutorial/setup.py", line 4, in <module>
+    setup(
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup
+    return run_commands(dist)
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands
+    dist.run_commands()
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands
+    self.run_command(cmd)
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/dist.py", line 991, in run_command
+    super().run_command(command)
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command
+    cmd_obj.run()
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 315, in run
+    self.find_sources()
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 323, in find_sources
+    mm.run()
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run
+    self.prune_file_list()
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list
+    super().prune_file_list()
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+    base_dir = self.distribution.get_fullname()
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+    return _distribution_fullname(self.get_name(), self.get_version())
+  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+    canonicalize_version(version, strip_trailing_zero=False),
+TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ros2_interfaces_tutorial_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ros2_interfaces_tutorial_egg] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ros2_interfaces_tutorial_egg.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

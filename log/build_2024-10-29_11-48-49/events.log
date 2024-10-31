@@ -1,0 +1,424 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (ros2_interfaces_tutorial) JobQueued: {'identifier': 'ros2_interfaces_tutorial', 'dependencies': OrderedDict()}
+[0.000365] (ros2_python_tutorial) JobQueued: {'identifier': 'ros2_python_tutorial', 'dependencies': OrderedDict()}
+[0.000488] (ros2_cpp_tutorial) JobQueued: {'identifier': 'ros2_cpp_tutorial', 'dependencies': OrderedDict([('ros2_interfaces_tutorial', '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial')])}
+[0.000620] (ros2_interfaces_tutorial) JobStarted: {'identifier': 'ros2_interfaces_tutorial'}
+[0.010307] (ros2_python_tutorial) JobStarted: {'identifier': 'ros2_python_tutorial'}
+[0.021451] (ros2_interfaces_tutorial) JobProgress: {'identifier': 'ros2_interfaces_tutorial', 'progress': 'cmake'}
+[0.022589] (ros2_interfaces_tutorial) JobProgress: {'identifier': 'ros2_interfaces_tutorial', 'progress': 'build'}
+[0.023797] (ros2_interfaces_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial', '--', '-j12', '-l12'], 'cwd': '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/jewoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1057'), ('SYSTEMD_EXEC_PID', '1649'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2878'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/opt/ros/humble/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1622,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', '07ce5f77f73a4041a0873800ba4f663a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f2bad5f7-55d4-4392-aa3b-8fb4312b3fe3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/build/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial')]), 'shell': False}
+[0.098908] (-) TimerEvent: {}
+[0.115250] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[  2%] Built target ros2_interfaces_tutorial__cpp\n'}
+[0.116839] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 12%] Built target ros2_interfaces_tutorial__rosidl_generator_c\n'}
+[0.134386] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_ros2_interfaces_tutorial\n'}
+[0.163346] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 23%] Built target ros2_interfaces_tutorial__rosidl_typesupport_cpp\n'}
+[0.171076] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 34%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cpp\n'}
+[0.173360] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 44%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_cpp\n'}
+[0.179260] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 55%] Built target ros2_interfaces_tutorial__rosidl_typesupport_c\n'}
+[0.185929] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 65%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c\n'}
+[0.187239] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 76%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c\n'}
+[0.199028] (-) TimerEvent: {}
+[0.219279] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 76%] Built target ros2_interfaces_tutorial\n'}
+[0.250576] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 78%] Built target ros2_interfaces_tutorial__py\n'}
+[0.284572] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 87%] Built target ros2_interfaces_tutorial__rosidl_generator_py\n'}
+[0.299142] (-) TimerEvent: {}
+[0.321003] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 93%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c__pyext\n'}
+[0.321424] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 95%] Built target ros2_interfaces_tutorial__rosidl_typesupport_c__pyext\n'}
+[0.327267] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[100%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.399244] (-) TimerEvent: {}
+[0.499626] (-) TimerEvent: {}
+[0.599931] (-) TimerEvent: {}
+[0.662096] (ros2_interfaces_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[0.663205] (ros2_interfaces_tutorial) StdoutLine: {'line': b'writing ros2_interfaces_tutorial.egg-info/PKG-INFO\n'}
+[0.663560] (ros2_interfaces_tutorial) StdoutLine: {'line': b'writing dependency_links to ros2_interfaces_tutorial.egg-info/dependency_links.txt\n'}
+[0.663827] (ros2_interfaces_tutorial) StdoutLine: {'line': b'writing top-level names to ros2_interfaces_tutorial.egg-info/top_level.txt\n'}
+[0.700079] (-) TimerEvent: {}
+[0.717305] (ros2_interfaces_tutorial) StdoutLine: {'line': b"reading manifest file 'ros2_interfaces_tutorial.egg-info/SOURCES.txt'\n"}
+[0.718416] (ros2_interfaces_tutorial) StdoutLine: {'line': b"writing manifest file 'ros2_interfaces_tutorial.egg-info/SOURCES.txt'\n"}
+[0.762600] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ros2_interfaces_tutorial_egg\n'}
+[0.780113] (ros2_interfaces_tutorial) CommandEnded: {'returncode': 0}
+[0.800350] (-) TimerEvent: {}
+[0.900665] (-) TimerEvent: {}
+[0.927832] (ros2_interfaces_tutorial) JobProgress: {'identifier': 'ros2_interfaces_tutorial', 'progress': 'install'}
+[0.942360] (ros2_interfaces_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial'], 'cwd': '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/jewoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1057'), ('SYSTEMD_EXEC_PID', '1649'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2878'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/opt/ros/humble/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1622,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', '07ce5f77f73a4041a0873800ba4f663a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f2bad5f7-55d4-4392-aa3b-8fb4312b3fe3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/build/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial')]), 'shell': False}
+[0.953197] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.954297] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.954720] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ament_index/resource_index/rosidl_interfaces/ros2_interfaces_tutorial\n'}
+[0.955506] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__functions.h\n'}
+[0.955820] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__struct.h\n'}
+[0.956101] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__type_support.h\n'}
+[0.956379] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__functions.h\n'}
+[0.956627] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__struct.h\n'}
+[0.956899] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__type_support.h\n'}
+[0.957122] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.957414] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/sphere.h\n'}
+[0.957675] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/spheres.h\n'}
+[0.957882] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/add_three_ints.h\n'}
+[0.958205] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__functions.h\n'}
+[0.958408] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__struct.h\n'}
+[0.958672] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__type_support.h\n'}
+[0.958937] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/environment/library_path.sh\n'}
+[0.959175] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/environment/library_path.dsv\n'}
+[0.959934] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[0.960239] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__rosidl_typesupport_fastrtps_c.h\n'}
+[0.960533] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.960813] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.961826] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__builder.hpp\n'}
+[0.962140] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__struct.hpp\n'}
+[0.962446] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__traits.hpp\n'}
+[0.962694] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__builder.hpp\n'}
+[0.962958] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__struct.hpp\n'}
+[0.963267] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__traits.hpp\n'}
+[0.963539] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/sphere.hpp\n'}
+[0.963795] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/spheres.hpp\n'}
+[0.964075] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/add_three_ints.hpp\n'}
+[0.964375] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__builder.hpp\n'}
+[0.964652] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__struct.hpp\n'}
+[0.964927] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__traits.hpp\n'}
+[0.965974] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.966262] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.966540] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.966808] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.967618] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[0.967949] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__rosidl_typesupport_introspection_c.h\n'}
+[0.968228] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.968503] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[0.969102] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.969377] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/msg/detail/spheres__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.969655] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/include/ros2_interfaces_tutorial/ros2_interfaces_tutorial/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.969938] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/environment/pythonpath.sh\n'}
+[0.970262] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/environment/pythonpath.dsv\n'}
+[0.970799] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.971072] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.971351] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.971672] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.972689] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/__init__.py\n'}
+[0.972955] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/_ros2_interfaces_tutorial_s.ep.rosidl_typesupport_c.c\n'}
+[0.973243] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/_ros2_interfaces_tutorial_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.973441] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/_ros2_interfaces_tutorial_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.973663] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/libros2_interfaces_tutorial__rosidl_generator_py.so\n'}
+[0.973899] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/msg/__init__.py\n'}
+[0.974199] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/msg/_sphere.py\n'}
+[0.974457] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/msg/_sphere_s.c\n'}
+[0.974708] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/msg/_spheres.py\n'}
+[0.974922] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/msg/_spheres_s.c\n'}
+[0.975219] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/ros2_interfaces_tutorial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.975471] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/ros2_interfaces_tutorial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.975650] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/ros2_interfaces_tutorial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.975822] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/srv/__init__.py\n'}
+[0.976040] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/srv/_add_three_ints.py\n'}
+[0.976252] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/srv/_add_three_ints_s.c\n'}
+[0.976529] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/ros2_interfaces_tutorial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.976945] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/ros2_interfaces_tutorial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.977491] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/ros2_interfaces_tutorial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.977808] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/msg/Sphere.idl\n'}
+[0.978123] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/msg/Spheres.idl\n'}
+[0.978440] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/srv/AddThreeInts.idl\n'}
+[0.978701] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/msg/Sphere.msg\n'}
+[0.978910] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/msg/Spheres.msg\n'}
+[0.979092] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/srv/AddThreeInts.srv\n'}
+[0.979275] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/srv/AddThreeInts_Request.msg\n'}
+[0.979460] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/srv/AddThreeInts_Response.msg\n'}
+[0.979727] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ament_index/resource_index/package_run_dependencies/ros2_interfaces_tutorial\n'}
+[0.980002] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ament_index/resource_index/parent_prefix_path/ros2_interfaces_tutorial\n'}
+[0.980267] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/environment/ament_prefix_path.sh\n'}
+[0.980524] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/environment/ament_prefix_path.dsv\n'}
+[0.980750] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/environment/path.sh\n'}
+[0.981008] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/environment/path.dsv\n'}
+[0.981240] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/local_setup.bash\n'}
+[0.981510] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/local_setup.sh\n'}
+[0.981803] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/local_setup.zsh\n'}
+[0.982214] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/local_setup.dsv\n'}
+[0.982486] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.dsv\n'}
+[0.995847] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ament_index/resource_index/packages/ros2_interfaces_tutorial\n'}
+[0.996280] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/rosidl_cmake-extras.cmake\n'}
+[0.996600] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.996906] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.997284] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.997600] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.997899] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.998222] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.998527] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorialConfig.cmake\n'}
+[0.998797] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorialConfig-version.cmake\n'}
+[0.999087] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.xml\n'}
+[0.999552] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/libros2_interfaces_tutorial__rosidl_generator_c.so\n'}
+[1.000237] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/libros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c.so\n'}
+[1.000750] (-) TimerEvent: {}
+[1.001057] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/libros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.001554] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/libros2_interfaces_tutorial__rosidl_typesupport_introspection_c.so\n'}
+[1.002103] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/libros2_interfaces_tutorial__rosidl_typesupport_c.so\n'}
+[1.002697] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/libros2_interfaces_tutorial__rosidl_typesupport_introspection_cpp.so\n'}
+[1.003310] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/libros2_interfaces_tutorial__rosidl_typesupport_cpp.so\n'}
+[1.060084] (ros2_interfaces_tutorial) StdoutLine: {'line': b"Listing '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial'...\n"}
+[1.060441] (ros2_interfaces_tutorial) StdoutLine: {'line': b"Listing '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/msg'...\n"}
+[1.060669] (ros2_interfaces_tutorial) StdoutLine: {'line': b"Listing '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages/ros2_interfaces_tutorial/srv'...\n"}
+[1.068028] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/libros2_interfaces_tutorial__rosidl_generator_py.so\n'}
+[1.068458] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_generator_cExport.cmake\n'}
+[1.068776] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.069068] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.069343] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.069612] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_generator_cppExport.cmake\n'}
+[1.069909] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.070232] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.070509] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorial__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.070757] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorial__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.071086] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorial__rosidl_typesupport_cExport.cmake\n'}
+[1.071345] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorial__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.071547] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorial__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.071740] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorial__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.071949] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorial__rosidl_typesupport_cppExport.cmake\n'}
+[1.072168] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/ros2_interfaces_tutorial__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.072376] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_generator_pyExport.cmake\n'}
+[1.072582] (ros2_interfaces_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake/export_ros2_interfaces_tutorial__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.074432] (ros2_interfaces_tutorial) CommandEnded: {'returncode': 0}
+[1.100872] (-) TimerEvent: {}
+[1.201263] (-) TimerEvent: {}
+[1.255540] (ros2_interfaces_tutorial) JobEnded: {'identifier': 'ros2_interfaces_tutorial', 'rc': 0}
+[1.256192] (ros2_cpp_tutorial) JobStarted: {'identifier': 'ros2_cpp_tutorial'}
+[1.272583] (ros2_cpp_tutorial) JobProgress: {'identifier': 'ros2_cpp_tutorial', 'progress': 'cmake'}
+[1.274031] (ros2_cpp_tutorial) JobProgress: {'identifier': 'ros2_cpp_tutorial', 'progress': 'build'}
+[1.275613] (ros2_cpp_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial', '--', '-j12', '-l12'], 'cwd': '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu'), ('HOME', '/home/jewoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1057'), ('SYSTEMD_EXEC_PID', '1649'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2878'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/opt/ros/humble/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1622,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', '07ce5f77f73a4041a0873800ba4f663a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f2bad5f7-55d4-4392-aa3b-8fb4312b3fe3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/build/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial')]), 'shell': False}
+[1.301389] (-) TimerEvent: {}
+[1.401812] (-) TimerEvent: {}
+[1.411115] (ros2_cpp_tutorial) StdoutLine: {'line': b'[  6%] Built target listener\n'}
+[1.411498] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 12%] Built target p1_subscriber\n'}
+[1.413486] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 18%] Built target client\n'}
+[1.413807] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 25%] Built target p1_publisher\n'}
+[1.417263] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 31%] Built target talker\n'}
+[1.417906] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 37%] Built target server\n'}
+[1.424353] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 43%] Built target fast_agent\n'}
+[1.427442] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 50%] Built target slow_agent\n'}
+[1.435408] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 62%] Built target custom_msg_publisher\n'}
+[1.437149] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 62%] Built target cpp_node\n'}
+[1.442163] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 68%] Built target led_service\n'}
+[1.450651] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 75%] Built target led_client\n'}
+[1.460662] (ros2_cpp_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlebot_visualizer\x1b[0m\n'}
+[1.475046] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 81%] Built target square\n'}
+[1.475469] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 87%] Built target turtlebot_controller\n'}
+[1.485185] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 93%] Built target minimal_param_node\n'}
+[1.492311] (ros2_cpp_tutorial) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot_visualizer.dir/src/turtlebot_visualizer.cpp.o\x1b[0m\n'}
+[1.501960] (-) TimerEvent: {}
+[1.538502] (ros2_python_tutorial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jewoo/ros2_ws/build/ros2_python_tutorial/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jewoo/ros2_ws/build/ros2_python_tutorial', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'jewoo', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:', 'HOME': '/home/jewoo', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1057', 'SYSTEMD_EXEC_PID': '1649', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2878', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jewoo/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jewoo', 'SUMO_HOME': '/usr/share/sumo', 'JOURNAL_STREAM': '8:15106', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jewoo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/opt/ros/humble/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1622,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1622', 'INVOCATION_ID': '07ce5f77f73a4041a0873800ba4f663a', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f2bad5f7-55d4-4392-aa3b-8fb4312b3fe3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jewoo/ros2_ws/build/ros2_python_tutorial', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jewoo/ros2_ws/build/ros2_python_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/build/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial'}, 'shell': False}
+[1.602059] (-) TimerEvent: {}
+[1.702496] (-) TimerEvent: {}
+[1.802909] (-) TimerEvent: {}
+[1.903358] (-) TimerEvent: {}
+[2.003761] (-) TimerEvent: {}
+[2.093798] (ros2_python_tutorial) StdoutLine: {'line': b'running develop\n'}
+[2.103879] (-) TimerEvent: {}
+[2.204302] (-) TimerEvent: {}
+[2.304703] (-) TimerEvent: {}
+[2.405066] (-) TimerEvent: {}
+[2.437460] (ros2_python_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[2.437847] (ros2_python_tutorial) StdoutLine: {'line': b'writing ros2_python_tutorial.egg-info/PKG-INFO\n'}
+[2.438048] (ros2_python_tutorial) StdoutLine: {'line': b'writing dependency_links to ros2_python_tutorial.egg-info/dependency_links.txt\n'}
+[2.438397] (ros2_python_tutorial) StdoutLine: {'line': b'writing entry points to ros2_python_tutorial.egg-info/entry_points.txt\n'}
+[2.438672] (ros2_python_tutorial) StdoutLine: {'line': b'writing requirements to ros2_python_tutorial.egg-info/requires.txt\n'}
+[2.438939] (ros2_python_tutorial) StdoutLine: {'line': b'writing top-level names to ros2_python_tutorial.egg-info/top_level.txt\n'}
+[2.502249] (ros2_python_tutorial) StdoutLine: {'line': b"reading manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'\n"}
+[2.503898] (ros2_python_tutorial) StdoutLine: {'line': b"writing manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'\n"}
+[2.505136] (-) TimerEvent: {}
+[2.506062] (ros2_python_tutorial) StdoutLine: {'line': b'running build_ext\n'}
+[2.506386] (ros2_python_tutorial) StdoutLine: {'line': b'Creating /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages/ros2-python-tutorial.egg-link (link to .)\n'}
+[2.508069] (ros2_python_tutorial) StdoutLine: {'line': b'Installing client script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.508368] (ros2_python_tutorial) StdoutLine: {'line': b'Installing custom_msg_publisher script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.508631] (ros2_python_tutorial) StdoutLine: {'line': b'Installing double_listener script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.508895] (ros2_python_tutorial) StdoutLine: {'line': b'Installing double_talker script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.509201] (ros2_python_tutorial) StdoutLine: {'line': b'Installing fast_agent script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.509393] (ros2_python_tutorial) StdoutLine: {'line': b'Installing listener script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.509581] (ros2_python_tutorial) StdoutLine: {'line': b'Installing minimal_param_node script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.509834] (ros2_python_tutorial) StdoutLine: {'line': b'Installing python_node script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.510080] (ros2_python_tutorial) StdoutLine: {'line': b'Installing server script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.510298] (ros2_python_tutorial) StdoutLine: {'line': b'Installing slow_agent script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.510518] (ros2_python_tutorial) StdoutLine: {'line': b'Installing square script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.510744] (ros2_python_tutorial) StdoutLine: {'line': b'Installing talker script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.510994] (ros2_python_tutorial) StdoutLine: {'line': b'Installing toggle_led_client script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.511175] (ros2_python_tutorial) StdoutLine: {'line': b'Installing toggle_led_service script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.511418] (ros2_python_tutorial) StdoutLine: {'line': b'Installing turtlebot_visualizer script to /home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/ros2_python_tutorial\n'}
+[2.511644] (ros2_python_tutorial) StdoutLine: {'line': b'\n'}
+[2.511815] (ros2_python_tutorial) StdoutLine: {'line': b'Installed /home/jewoo/ros2_ws/build/ros2_python_tutorial\n'}
+[2.512040] (ros2_python_tutorial) StdoutLine: {'line': b'running symlink_data\n'}
+[2.565721] (ros2_python_tutorial) CommandEnded: {'returncode': 0}
+[2.582368] (ros2_python_tutorial) JobEnded: {'identifier': 'ros2_python_tutorial', 'rc': 0}
+[2.605254] (-) TimerEvent: {}
+[2.705607] (-) TimerEvent: {}
+[2.805948] (-) TimerEvent: {}
+[2.906274] (-) TimerEvent: {}
+[3.006611] (-) TimerEvent: {}
+[3.106916] (-) TimerEvent: {}
+[3.207232] (-) TimerEvent: {}
+[3.307566] (-) TimerEvent: {}
+[3.408033] (-) TimerEvent: {}
+[3.508437] (-) TimerEvent: {}
+[3.608804] (-) TimerEvent: {}
+[3.709147] (-) TimerEvent: {}
+[3.809513] (-) TimerEvent: {}
+[3.909863] (-) TimerEvent: {}
+[4.010209] (-) TimerEvent: {}
+[4.110564] (-) TimerEvent: {}
+[4.210911] (-) TimerEvent: {}
+[4.311229] (-) TimerEvent: {}
+[4.411569] (-) TimerEvent: {}
+[4.511913] (-) TimerEvent: {}
+[4.612234] (-) TimerEvent: {}
+[4.712576] (-) TimerEvent: {}
+[4.812917] (-) TimerEvent: {}
+[4.913312] (-) TimerEvent: {}
+[5.013664] (-) TimerEvent: {}
+[5.114032] (-) TimerEvent: {}
+[5.214355] (-) TimerEvent: {}
+[5.314724] (-) TimerEvent: {}
+[5.415133] (-) TimerEvent: {}
+[5.515480] (-) TimerEvent: {}
+[5.615826] (-) TimerEvent: {}
+[5.716214] (-) TimerEvent: {}
+[5.816582] (-) TimerEvent: {}
+[5.917000] (-) TimerEvent: {}
+[6.017361] (-) TimerEvent: {}
+[6.117712] (-) TimerEvent: {}
+[6.218039] (-) TimerEvent: {}
+[6.318364] (-) TimerEvent: {}
+[6.418685] (-) TimerEvent: {}
+[6.519049] (-) TimerEvent: {}
+[6.619389] (-) TimerEvent: {}
+[6.719733] (-) TimerEvent: {}
+[6.820074] (-) TimerEvent: {}
+[6.920413] (-) TimerEvent: {}
+[7.020760] (-) TimerEvent: {}
+[7.121110] (-) TimerEvent: {}
+[7.221453] (-) TimerEvent: {}
+[7.321795] (-) TimerEvent: {}
+[7.422100] (-) TimerEvent: {}
+[7.522445] (-) TimerEvent: {}
+[7.622813] (-) TimerEvent: {}
+[7.723169] (-) TimerEvent: {}
+[7.823541] (-) TimerEvent: {}
+[7.923907] (-) TimerEvent: {}
+[8.024283] (-) TimerEvent: {}
+[8.124642] (-) TimerEvent: {}
+[8.224993] (-) TimerEvent: {}
+[8.325398] (-) TimerEvent: {}
+[8.425751] (-) TimerEvent: {}
+[8.526103] (-) TimerEvent: {}
+[8.626454] (-) TimerEvent: {}
+[8.726809] (-) TimerEvent: {}
+[8.827165] (-) TimerEvent: {}
+[8.927547] (-) TimerEvent: {}
+[9.027864] (-) TimerEvent: {}
+[9.128234] (-) TimerEvent: {}
+[9.228595] (-) TimerEvent: {}
+[9.328946] (-) TimerEvent: {}
+[9.429330] (-) TimerEvent: {}
+[9.529693] (-) TimerEvent: {}
+[9.630012] (-) TimerEvent: {}
+[9.730350] (-) TimerEvent: {}
+[9.830699] (-) TimerEvent: {}
+[9.931042] (-) TimerEvent: {}
+[10.031355] (-) TimerEvent: {}
+[10.131711] (-) TimerEvent: {}
+[10.232050] (-) TimerEvent: {}
+[10.332406] (-) TimerEvent: {}
+[10.432748] (-) TimerEvent: {}
+[10.533101] (-) TimerEvent: {}
+[10.633446] (-) TimerEvent: {}
+[10.733788] (-) TimerEvent: {}
+[10.834128] (-) TimerEvent: {}
+[10.934470] (-) TimerEvent: {}
+[11.034816] (-) TimerEvent: {}
+[11.135176] (-) TimerEvent: {}
+[11.235533] (-) TimerEvent: {}
+[11.335942] (-) TimerEvent: {}
+[11.436299] (-) TimerEvent: {}
+[11.536640] (-) TimerEvent: {}
+[11.636992] (-) TimerEvent: {}
+[11.737323] (-) TimerEvent: {}
+[11.837665] (-) TimerEvent: {}
+[11.938023] (-) TimerEvent: {}
+[12.038369] (-) TimerEvent: {}
+[12.138713] (-) TimerEvent: {}
+[12.239057] (-) TimerEvent: {}
+[12.339404] (-) TimerEvent: {}
+[12.439747] (-) TimerEvent: {}
+[12.540080] (-) TimerEvent: {}
+[12.640419] (-) TimerEvent: {}
+[12.740760] (-) TimerEvent: {}
+[12.841092] (-) TimerEvent: {}
+[12.941432] (-) TimerEvent: {}
+[13.041776] (-) TimerEvent: {}
+[13.142124] (-) TimerEvent: {}
+[13.242465] (-) TimerEvent: {}
+[13.342811] (-) TimerEvent: {}
+[13.443177] (-) TimerEvent: {}
+[13.543519] (-) TimerEvent: {}
+[13.643864] (-) TimerEvent: {}
+[13.744185] (-) TimerEvent: {}
+[13.844529] (-) TimerEvent: {}
+[13.944888] (-) TimerEvent: {}
+[14.045263] (-) TimerEvent: {}
+[14.145609] (-) TimerEvent: {}
+[14.245971] (-) TimerEvent: {}
+[14.346358] (-) TimerEvent: {}
+[14.446703] (-) TimerEvent: {}
+[14.547061] (-) TimerEvent: {}
+[14.647428] (-) TimerEvent: {}
+[14.747779] (-) TimerEvent: {}
+[14.847411] (ros2_cpp_tutorial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot_visualizer\x1b[0m\n'}
+[14.847850] (-) TimerEvent: {}
+[14.948144] (-) TimerEvent: {}
+[15.048577] (-) TimerEvent: {}
+[15.149037] (-) TimerEvent: {}
+[15.249411] (-) TimerEvent: {}
+[15.349781] (-) TimerEvent: {}
+[15.450099] (-) TimerEvent: {}
+[15.550446] (-) TimerEvent: {}
+[15.591383] (ros2_cpp_tutorial) StdoutLine: {'line': b'[100%] Built target turtlebot_visualizer\n'}
+[15.608232] (ros2_cpp_tutorial) CommandEnded: {'returncode': 0}
+[15.650570] (-) TimerEvent: {}
+[15.709019] (ros2_cpp_tutorial) JobProgress: {'identifier': 'ros2_cpp_tutorial', 'progress': 'install'}
+[15.710398] (ros2_cpp_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial'], 'cwd': '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu'), ('HOME', '/home/jewoo'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1057'), ('SYSTEMD_EXEC_PID', '1649'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2878'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/opt/ros/humble/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1622,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1622'), ('INVOCATION_ID', '07ce5f77f73a4041a0873800ba4f663a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f2bad5f7-55d4-4392-aa3b-8fb4312b3fe3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/build/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial')]), 'shell': False}
+[15.721340] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.722064] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.722518] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/talker\n'}
+[15.722938] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/listener\n'}
+[15.723471] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/p1_publisher\n'}
+[15.723876] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/p1_subscriber\n'}
+[15.724294] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/fast_agent\n'}
+[15.724659] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/slow_agent\n'}
+[15.725001] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/custom_msg_publisher\n'}
+[15.725419] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/server\n'}
+[15.725771] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/client\n'}
+[15.726135] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/led_client\n'}
+[15.726535] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/led_service\n'}
+[15.726860] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/cpp_node\n'}
+[15.727456] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/turtlebot_controller\n'}
+[15.728006] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/square\n'}
+[15.728409] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/minimal_param_node\n'}
+[15.728792] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/turtlebot_visualizer\n'}
+[15.729365] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/cpp_parameters_launch.py\n'}
+[15.729636] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/multi_turtlebot_control_launch.py\n'}
+[15.729839] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/talker_listener_launch.py\n'}
+[15.730018] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_control_launch.py\n'}
+[15.730165] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_square_control_launch.py\n'}
+[15.730275] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlebot_visualization_launch.py\n'}
+[15.730491] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlesim_mimic_launch.py\n'}
+[15.730683] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlesim_multiple_launch.py\n'}
+[15.731003] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/package_run_dependencies/ros2_cpp_tutorial\n'}
+[15.731276] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/parent_prefix_path/ros2_cpp_tutorial\n'}
+[15.731545] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/ament_prefix_path.sh\n'}
+[15.731793] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/ament_prefix_path.dsv\n'}
+[15.732092] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/path.sh\n'}
+[15.732374] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/path.dsv\n'}
+[15.732551] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.bash\n'}
+[15.732790] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.sh\n'}
+[15.733083] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.zsh\n'}
+[15.733342] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.dsv\n'}
+[15.733528] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.dsv\n'}
+[15.746302] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ament_index/resource_index/packages/ros2_cpp_tutorial\n'}
+[15.746602] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/cmake/ros2_cpp_tutorialConfig.cmake\n'}
+[15.746835] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/cmake/ros2_cpp_tutorialConfig-version.cmake\n'}
+[15.746998] (ros2_cpp_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.xml\n'}
+[15.750286] (ros2_cpp_tutorial) CommandEnded: {'returncode': 0}
+[15.750859] (-) TimerEvent: {}
+[15.851150] (-) TimerEvent: {}
+[15.880343] (ros2_cpp_tutorial) JobEnded: {'identifier': 'ros2_cpp_tutorial', 'rc': 0}
+[15.881685] (-) EventReactorShutdown: {}

@@ -1,0 +1,276 @@
+[0.176s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.176s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d2028dd5060>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d2028dd4220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d2028dd4220>>)
+[0.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.464s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jewoo/ros2_ws'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_cpp_tutorial) by extension 'ros'
+[0.510s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_cpp_tutorial' with type 'ros.ament_cmake' and name 'ros2_cpp_tutorial'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_interfaces_tutorial) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_interfaces_tutorial' with type 'ros.ament_cmake' and name 'ros2_interfaces_tutorial'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_python_tutorial) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_python_tutorial' with type 'ros.ament_python' and name 'ros2_python_tutorial'
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.548s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jewoo/ros2_ws/install
+[0.551s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.645s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_interfaces_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.646s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_python_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/build/ros2_python_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/install/ros2_python_tutorial', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/ros2_python_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_cpp_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/ros2_cpp_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.647s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.649s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial' with build type 'ament_cmake'
+[0.649s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial'
+[0.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.658s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jewoo/ros2_ws/src/ros2_python_tutorial' with build type 'ament_python'
+[0.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_python_tutorial', 'ament_prefix_path')
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/ament_prefix_path.ps1'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/ament_prefix_path.dsv'
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/ament_prefix_path.sh'
+[0.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/build/ros2_interfaces_tutorial -- -j12 -l12
+[1.196s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jewoo/ros2_ws/src/ros2_python_tutorial'
+[1.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/build/ros2_interfaces_tutorial -- -j12 -l12
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --install /home/jewoo/ros2_ws/build/ros2_interfaces_tutorial
+[1.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_interfaces_tutorial)
+[1.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jewoo/ros2_ws/build/ros2_interfaces_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --install /home/jewoo/ros2_ws/build/ros2_interfaces_tutorial
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial' for CMake module files
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial' for CMake config files
+[1.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interfaces_tutorial', 'cmake_prefix_path')
+[1.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/cmake_prefix_path.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/cmake_prefix_path.dsv'
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/cmake_prefix_path.sh'
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib'
+[1.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interfaces_tutorial', 'ld_library_path_lib')
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/ld_library_path_lib.ps1'
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/ld_library_path_lib.dsv'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/ld_library_path_lib.sh'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/bin'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/pkgconfig/ros2_interfaces_tutorial.pc'
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/python3.10/site-packages'
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/bin'
+[1.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.ps1'
+[1.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.sh'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.bash'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.zsh'
+[1.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/colcon-core/packages/ros2_interfaces_tutorial)
+[1.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_interfaces_tutorial)
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial' for CMake module files
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial' for CMake config files
+[1.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interfaces_tutorial', 'cmake_prefix_path')
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/cmake_prefix_path.ps1'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/cmake_prefix_path.dsv'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/cmake_prefix_path.sh'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib'
+[1.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interfaces_tutorial', 'ld_library_path_lib')
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/ld_library_path_lib.ps1'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/ld_library_path_lib.dsv'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/hook/ld_library_path_lib.sh'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/bin'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/pkgconfig/ros2_interfaces_tutorial.pc'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib/python3.10/site-packages'
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/bin'
+[1.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.ps1'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.dsv'
+[1.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.sh'
+[1.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.bash'
+[1.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/package.zsh'
+[1.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/share/colcon-core/packages/ros2_interfaces_tutorial)
+[1.805s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jewoo/ros2_ws/src/ros2_cpp_tutorial' with build type 'ament_cmake'
+[1.805s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/ros2_cpp_tutorial'
+[1.806s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial': CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu /usr/bin/cmake --build /home/jewoo/ros2_ws/build/ros2_cpp_tutorial -- -j12 -l12
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/build/ros2_python_tutorial': PYTHONPATH=/home/jewoo/ros2_ws/build/ros2_python_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jewoo/ros2_ws/build/ros2_python_tutorial/build --no-deps symlink_data
+[2.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu /usr/bin/cmake --build /home/jewoo/ros2_ws/build/ros2_cpp_tutorial -- -j12 -l12
+[2.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial': CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu /usr/bin/cmake --install /home/jewoo/ros2_ws/build/ros2_cpp_tutorial
+[2.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_cpp_tutorial)
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial' for CMake module files
+[2.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu /usr/bin/cmake --install /home/jewoo/ros2_ws/build/ros2_cpp_tutorial
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial' for CMake config files
+[2.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_cpp_tutorial', 'cmake_prefix_path')
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/hook/cmake_prefix_path.ps1'
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/hook/cmake_prefix_path.dsv'
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/hook/cmake_prefix_path.sh'
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib'
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/bin'
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/pkgconfig/ros2_cpp_tutorial.pc'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/python3.10/site-packages'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/bin'
+[2.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.ps1'
+[2.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.dsv'
+[2.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.sh'
+[2.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.bash'
+[2.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.zsh'
+[2.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/colcon-core/packages/ros2_cpp_tutorial)
+[2.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_cpp_tutorial)
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial' for CMake module files
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial' for CMake config files
+[2.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_cpp_tutorial', 'cmake_prefix_path')
+[2.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/hook/cmake_prefix_path.ps1'
+[2.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/hook/cmake_prefix_path.dsv'
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/hook/cmake_prefix_path.sh'
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib'
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/bin'
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/pkgconfig/ros2_cpp_tutorial.pc'
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/lib/python3.10/site-packages'
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/bin'
+[2.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.ps1'
+[2.297s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.dsv'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.sh'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.bash'
+[2.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.zsh'
+[2.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/colcon-core/packages/ros2_cpp_tutorial)
+[3.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_python_tutorial', 'pythonpath_develop')
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/build/ros2_python_tutorial/share/ros2_python_tutorial/hook/pythonpath_develop.ps1'
+[3.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jewoo/ros2_ws/build/ros2_python_tutorial' returned '0': PYTHONPATH=/home/jewoo/ros2_ws/build/ros2_python_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jewoo/ros2_ws/build/ros2_python_tutorial/build --no-deps symlink_data
+[3.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/build/ros2_python_tutorial/share/ros2_python_tutorial/hook/pythonpath_develop.dsv'
+[3.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/build/ros2_python_tutorial/share/ros2_python_tutorial/hook/pythonpath_develop.sh'
+[3.134s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_python_tutorial' for CMake module files
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_python_tutorial' for CMake config files
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_python_tutorial/bin'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/pkgconfig/ros2_python_tutorial.pc'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages'
+[3.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_python_tutorial', 'pythonpath')
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/pythonpath.ps1'
+[3.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/pythonpath.dsv'
+[3.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/pythonpath.sh'
+[3.141s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/install/ros2_python_tutorial/bin'
+[3.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_python_tutorial)
+[3.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/package.ps1'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/package.dsv'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/package.sh'
+[3.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/package.bash'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/ros2_python_tutorial/package.zsh'
+[3.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jewoo/ros2_ws/install/ros2_python_tutorial/share/colcon-core/packages/ros2_python_tutorial)
+[3.145s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.146s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.156s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.182s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.183s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jewoo/ros2_ws/install/local_setup.ps1'
+[3.186s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jewoo/ros2_ws/install/_local_setup_util_ps1.py'
+[3.190s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jewoo/ros2_ws/install/setup.ps1'
+[3.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jewoo/ros2_ws/install/local_setup.sh'
+[3.194s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jewoo/ros2_ws/install/_local_setup_util_sh.py'
+[3.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jewoo/ros2_ws/install/setup.sh'
+[3.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jewoo/ros2_ws/install/local_setup.bash'
+[3.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jewoo/ros2_ws/install/setup.bash'
+[3.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jewoo/ros2_ws/install/local_setup.zsh'
+[3.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jewoo/ros2_ws/install/setup.zsh'

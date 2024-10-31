@@ -1,0 +1,24 @@
+// {
+//     // Use IntelliSense to learn about possible attributes.
+//     // Hover to view descriptions of existing attributes.
+//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": []
+// }
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ROS: Launch",
+            "request": "launch",
+            "target": "/home/jewoo/ros2_ws/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/talker_listener_launch.py",
+            "launch": [
+                "rviz",
+                "gz",
+                "gzclient",
+                "gzserver"
+            ],
+            "type": "ros"
+        }
+    ]
+}

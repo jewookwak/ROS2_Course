@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.001216] (gazebo_sim) JobQueued: {'identifier': 'gazebo_sim', 'dependencies': OrderedDict()}
+[0.001337] (pic4rl) JobQueued: {'identifier': 'pic4rl', 'dependencies': OrderedDict()}
+[0.001392] (ros2_interfaces_tutorial) JobQueued: {'identifier': 'ros2_interfaces_tutorial', 'dependencies': OrderedDict()}
+[0.001412] (ros2_cpp_tutorial) JobQueued: {'identifier': 'ros2_cpp_tutorial', 'dependencies': OrderedDict([('ros2_interfaces_tutorial', '/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial')])}
+[0.001434] (ros2_interfaces_tutorial) JobStarted: {'identifier': 'ros2_interfaces_tutorial'}
+[0.006724] (gazebo_sim) JobStarted: {'identifier': 'gazebo_sim'}
+[0.009942] (pic4rl) JobStarted: {'identifier': 'pic4rl'}
+[0.069817] (gazebo_sim) JobEnded: {'identifier': 'gazebo_sim', 'rc': 1}
+[0.070482] (pic4rl) JobEnded: {'identifier': 'pic4rl', 'rc': 'SIGINT'}
+[0.099450] (-) TimerEvent: {}
+[0.147776] (ros2_interfaces_tutorial) JobEnded: {'identifier': 'ros2_interfaces_tutorial', 'rc': 'SIGINT'}
+[0.158607] (ros2_cpp_tutorial) JobSkipped: {'identifier': 'ros2_cpp_tutorial'}
+[0.158664] (-) EventReactorShutdown: {}

@@ -35,6 +35,9 @@ setup(
             'toggle_led_service = ros2_python_tutorial.p3_led_service:main',
             'toggle_led_client = ros2_python_tutorial.p3_led_client:main',
             'custom_msg_publisher = ros2_python_tutorial.custom_msg_publisher:main',
+            'square = ros2_python_tutorial.square:main',
+            'minimal_param_node = ros2_python_tutorial.python_parameters_node:main',
+            'turtlebot_visualizer = ros2_python_tutorial.turtlebot_visualizer:main',
         ],
     },
 )

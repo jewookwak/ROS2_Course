@@ -1,0 +1,3 @@
+source;share/pic4rl/environment/ament_prefix_path.sh
+source;share/pic4rl/environment/path.sh
+source;share/pic4rl/environment/pythonpath.sh

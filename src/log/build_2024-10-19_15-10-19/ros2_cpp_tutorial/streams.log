@@ -1,0 +1,119 @@
+[0.014s] Invoking command in '/home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial': AMENT_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jewoo/ros2_ws/src/ros2_cpp_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.176s] -- The CXX compiler identification is GNU 11.4.0
+[0.184s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.253s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.336s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.531s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.567s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.631s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.635s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.643s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.718s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.721s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.805s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.830s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.877s] -- Looking for pthread.h
+[0.947s] -- Looking for pthread.h - found
+[0.948s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.031s] -- Found Threads: TRUE  
+[1.090s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.138s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.155s] -- Found ros2_interfaces_tutorial: 0.0.0 (/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/share/ros2_interfaces_tutorial/cmake)
+[1.187s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.260s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/include>
+[1.260s] -- Configured cppcheck exclude dirs and/or files: 
+[1.261s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.262s] -- Added test 'lint_cmake' to check CMake code style
+[1.262s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.264s] -- Added test 'uncrustify' to check C / C++ code style
+[1.264s] -- Configured uncrustify additional arguments: 
+[1.264s] -- Added test 'xmllint' to check XML markup files
+[1.266s] -- Configuring done
+[1.302s] -- Generating done
+[1.304s] -- Build files have been written to: /home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial
+[1.313s] Invoked command in '/home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial' returned '0': AMENT_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jewoo/ros2_ws/src/ros2_cpp_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial
+[1.314s] Invoking command in '/home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial': AMENT_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial -- -j12 -l12
+[1.370s] [  8%] [32mBuilding CXX object CMakeFiles/p1_publisher.dir/src/p1_publisher.cpp.o[0m
+[1.371s] [  8%] [32mBuilding CXX object CMakeFiles/p1_subscriber.dir/src/p1_subscriber.cpp.o[0m
+[1.371s] [ 12%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.371s] [ 20%] [32mBuilding CXX object CMakeFiles/led_service.dir/src/toggle_led_service.cpp.o[0m
+[1.371s] [ 20%] [32mBuilding CXX object CMakeFiles/slow_agent.dir/src/p2_slow_agent.cpp.o[0m
+[1.371s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_msg_publisher.dir/src/custom_msg_publisher.cpp.o[0m
+[1.371s] [ 29%] [32mBuilding CXX object CMakeFiles/fast_agent.dir/src/p2_fast_agent.cpp.o[0m
+[1.372s] [ 37%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.372s] [ 37%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.372s] [ 41%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[1.372s] [ 45%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.372s] [ 50%] [32mBuilding CXX object CMakeFiles/led_client.dir/src/toggle_led_client.cpp.o[0m
+[1.414s] [ 54%] [32m[1mLinking CXX executable cpp_node[0m
+[1.481s] [ 54%] Built target cpp_node
+[5.675s] [ 58%] [32m[1mLinking CXX executable server[0m
+[5.955s] [ 58%] Built target server
+[6.877s] [ 62%] [32m[1mLinking CXX executable led_service[0m
+[6.913s] [ 66%] [32m[1mLinking CXX executable led_client[0m
+[6.997s] [ 70%] [32m[1mLinking CXX executable client[0m
+[7.134s] [ 70%] Built target led_service
+[7.171s] [ 70%] Built target led_client
+[7.260s] [ 70%] Built target client
+[7.395s] [ 75%] [32m[1mLinking CXX executable p1_publisher[0m
+[7.599s] [ 75%] Built target p1_publisher
+[7.793s] [ 79%] [32m[1mLinking CXX executable talker[0m
+[7.818s] [ 83%] [32m[1mLinking CXX executable custom_msg_publisher[0m
+[8.004s] [ 83%] Built target talker
+[8.041s] [ 83%] Built target custom_msg_publisher
+[10.481s] [ 87%] [32m[1mLinking CXX executable p1_subscriber[0m
+[10.831s] [ 87%] Built target p1_subscriber
+[11.471s] [ 91%] [32m[1mLinking CXX executable listener[0m
+[11.669s] [ 95%] [32m[1mLinking CXX executable slow_agent[0m
+[11.720s] [100%] [32m[1mLinking CXX executable fast_agent[0m
+[11.827s] [100%] Built target listener
+[12.026s] [100%] Built target slow_agent
+[12.073s] [100%] Built target fast_agent
+[12.083s] Invoked command in '/home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial' returned '0': AMENT_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial -- -j12 -l12
+[12.141s] Invoking command in '/home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial': AMENT_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial
+[12.149s] -- Install configuration: ""
+[12.149s] -- Execute custom install script
+[12.150s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/talker
+[12.159s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/listener
+[12.167s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/p1_publisher
+[12.176s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/p1_subscriber
+[12.185s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/fast_agent
+[12.193s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/slow_agent
+[12.201s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/custom_msg_publisher
+[12.209s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/server
+[12.216s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/client
+[12.224s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/led_client
+[12.231s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/led_service
+[12.239s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/lib/ros2_cpp_tutorial/cpp_node
+[12.247s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/launch/turtlesim_mimic_launch.py
+[12.254s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ament_index/resource_index/package_run_dependencies/ros2_cpp_tutorial
+[12.262s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ament_index/resource_index/parent_prefix_path/ros2_cpp_tutorial
+[12.269s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/ament_prefix_path.sh
+[12.277s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/ament_prefix_path.dsv
+[12.284s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/path.sh
+[12.292s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/environment/path.dsv
+[12.299s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.bash
+[12.308s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.sh
+[12.315s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.zsh
+[12.323s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/local_setup.dsv
+[12.331s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.dsv
+[12.338s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ament_index/resource_index/packages/ros2_cpp_tutorial
+[12.346s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/cmake/ros2_cpp_tutorialConfig.cmake
+[12.353s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/cmake/ros2_cpp_tutorialConfig-version.cmake
+[12.361s] -- Symlinking: /home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial/share/ros2_cpp_tutorial/package.xml
+[12.370s] Invoked command in '/home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial' returned '0': AMENT_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial LD_LIBRARY_PATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial

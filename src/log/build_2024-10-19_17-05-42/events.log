@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (ros2_interfaces_tutorial) JobQueued: {'identifier': 'ros2_interfaces_tutorial', 'dependencies': OrderedDict()}
+[0.000223] (ros2_python_tutorial) JobQueued: {'identifier': 'ros2_python_tutorial', 'dependencies': OrderedDict()}
+[0.000256] (ros2_cpp_tutorial) JobQueued: {'identifier': 'ros2_cpp_tutorial', 'dependencies': OrderedDict([('ros2_interfaces_tutorial', '/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial')])}
+[0.000795] (ros2_interfaces_tutorial) JobStarted: {'identifier': 'ros2_interfaces_tutorial'}
+[0.020457] (ros2_python_tutorial) JobStarted: {'identifier': 'ros2_python_tutorial'}
+[0.034687] (ros2_interfaces_tutorial) JobProgress: {'identifier': 'ros2_interfaces_tutorial', 'progress': 'cmake'}
+[0.035952] (ros2_interfaces_tutorial) JobProgress: {'identifier': 'ros2_interfaces_tutorial', 'progress': 'build'}
+[0.037007] (ros2_interfaces_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial', '--', '-j12', '-l12'], 'cwd': '/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'jewoo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jewoo/ros2_ws/install/tutorial_interface/lib:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/jewoo'), ('OLDPWD', '/home/jewoo/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1065'), ('SYSTEMD_EXEC_PID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4022'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jewoo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jewoo'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:15667'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jewoo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/jewoo/ros2_ws/install/gazebo_sim/share/gazebo_sim/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jewoo/anaconda3/bin:/home/jewoo/anaconda3/condabin:/home/jewoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jewoo-System-Product-Name:@/tmp/.ICE-unix/1572,unix/jewoo-System-Product-Name:/tmp/.ICE-unix/1572'), ('INVOCATION_ID', '9cf97302264749978961e2aaa341ed2a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/gazebo_sim'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:df9635e5-8168-4383-889d-f76c40dc78bd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/jewoo/ros2_ws/install/gazebo_sim/share/gazebo_sim/media:/home/jewoo/ros2_ws/install/gazebo_sim/share/gazebo_sim/worlds'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/install/tutorial_interface/local/lib/python3.10/dist-packages:/home/jewoo/ros2_ws/build/ros2_python_tutorial:/home/jewoo/ros2_ws/install/ros2_python_tutorial/lib/python3.10/site-packages:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jewoo/ros2_ws/install/tutorial_interface:/home/jewoo/ros2_ws/install/ros2_cpp_tutorial:/home/jewoo/ros2_ws/install/ros2_interfaces_tutorial:/home/jewoo/ros2_ws/install/gazebo_sim:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial')]), 'shell': False}
+[0.099606] (-) TimerEvent: {}
+[0.113279] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_generator_c\x1b[0m\n'}
+[0.127127] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[  2%] Built target ros2_interfaces_tutorial__cpp\n'}
+[0.139529] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 12%] Built target ros2_interfaces_tutorial__rosidl_generator_c\n'}
+[0.145946] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_ros2_interfaces_tutorial\n'}
+[0.153150] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.153464] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.156826] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.163536] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.165488] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_c\x1b[0m\n'}
+[0.167337] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.183431] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 23%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cpp\n'}
+[0.184642] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 34%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_cpp\n'}
+[0.185047] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 44%] Built target ros2_interfaces_tutorial__rosidl_typesupport_c\n'}
+[0.186603] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 55%] Built target ros2_interfaces_tutorial__rosidl_typesupport_cpp\n'}
+[0.191196] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 65%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c\n'}
+[0.198796] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 76%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c\n'}
+[0.199698] (-) TimerEvent: {}
+[0.232108] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 76%] Built target ros2_interfaces_tutorial\n'}
+[0.267336] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 78%] Built target ros2_interfaces_tutorial__py\n'}
+[0.286313] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_generator_py\x1b[0m\n'}
+[0.299849] (-) TimerEvent: {}
+[0.311222] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 87%] Built target ros2_interfaces_tutorial__rosidl_generator_py\n'}
+[0.329682] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.330046] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.330296] (ros2_interfaces_tutorial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.350929] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 91%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.351296] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[ 95%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c__pyext\n'}
+[0.351564] (ros2_interfaces_tutorial) StdoutLine: {'line': b'[100%] Built target ros2_interfaces_tutorial__rosidl_typesupport_c__pyext\n'}
+[0.399983] (-) TimerEvent: {}
+[0.500300] (-) TimerEvent: {}
+[0.600624] (-) TimerEvent: {}
+[0.624379] (ros2_interfaces_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[0.653128] (ros2_interfaces_tutorial) StdoutLine: {'line': b'writing ros2_interfaces_tutorial.egg-info/PKG-INFO\n'}
+[0.653747] (ros2_interfaces_tutorial) StdoutLine: {'line': b'writing dependency_links to ros2_interfaces_tutorial.egg-info/dependency_links.txt\n'}
+[0.654168] (ros2_interfaces_tutorial) StdoutLine: {'line': b'writing top-level names to ros2_interfaces_tutorial.egg-info/top_level.txt\n'}
+[0.700765] (-) TimerEvent: {}
+[0.738739] (ros2_interfaces_tutorial) StdoutLine: {'line': b"reading manifest file 'ros2_interfaces_tutorial.egg-info/SOURCES.txt'\n"}
+[0.765513] (ros2_interfaces_tutorial) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.765737] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial/ament_cmake_python/ros2_interfaces_tutorial/setup.py", line 4, in <module>\n'}
+[0.765931] (ros2_interfaces_tutorial) StderrLine: {'line': b'    setup(\n'}
+[0.766164] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[0.766286] (ros2_interfaces_tutorial) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[0.766390] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[0.766488] (ros2_interfaces_tutorial) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[0.766582] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[0.766675] (ros2_interfaces_tutorial) StderrLine: {'line': b'    dist.run_commands()\n'}
+[0.766767] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[0.767029] (ros2_interfaces_tutorial) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[0.767149] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/dist.py", line 991, in run_command\n'}
+[0.767292] (ros2_interfaces_tutorial) StderrLine: {'line': b'    super().run_command(command)\n'}
+[0.767393] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[0.767487] (ros2_interfaces_tutorial) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[0.767577] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 315, in run\n'}
+[0.767669] (ros2_interfaces_tutorial) StderrLine: {'line': b'    self.find_sources()\n'}
+[0.767758] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 323, in find_sources\n'}
+[0.767990] (ros2_interfaces_tutorial) StderrLine: {'line': b'    mm.run()\n'}
+[0.768177] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run\n'}
+[0.768274] (ros2_interfaces_tutorial) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[0.768361] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list\n'}
+[0.768458] (ros2_interfaces_tutorial) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[0.768540] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[0.768622] (ros2_interfaces_tutorial) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[0.768703] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[0.768786] (ros2_interfaces_tutorial) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[0.768890] (ros2_interfaces_tutorial) StderrLine: {'line': b'  File "/home/jewoo/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[0.768976] (ros2_interfaces_tutorial) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[0.769057] (ros2_interfaces_tutorial) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[0.800900] (-) TimerEvent: {}
+[0.812338] (ros2_interfaces_tutorial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ros2_interfaces_tutorial_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ros2_interfaces_tutorial_egg] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[0.812697] (ros2_interfaces_tutorial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ros2_interfaces_tutorial_egg.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[0.813034] (ros2_interfaces_tutorial) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[0.815967] (ros2_interfaces_tutorial) CommandEnded: {'returncode': 2}
+[0.900988] (-) TimerEvent: {}
+[1.001260] (-) TimerEvent: {}
+[1.023693] (ros2_interfaces_tutorial) JobEnded: {'identifier': 'ros2_interfaces_tutorial', 'rc': 2}
+[1.101471] (-) TimerEvent: {}
+[1.201879] (-) TimerEvent: {}
+[1.302276] (-) TimerEvent: {}
+[1.402578] (-) TimerEvent: {}
+[1.428960] (ros2_python_tutorial) JobEnded: {'identifier': 'ros2_python_tutorial', 'rc': 'SIGINT'}
+[1.439663] (ros2_cpp_tutorial) JobSkipped: {'identifier': 'ros2_cpp_tutorial'}
+[1.439732] (-) EventReactorShutdown: {}

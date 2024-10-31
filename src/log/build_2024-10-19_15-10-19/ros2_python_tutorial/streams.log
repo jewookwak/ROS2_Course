@@ -1,0 +1,39 @@
+[0.831s] Invoking command in '/home/jewoo/ros2_ws/src/build/ros2_python_tutorial': PYTHONPATH=/home/jewoo/ros2_ws/src/build/ros2_python_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jewoo/ros2_ws/src/build/ros2_python_tutorial/build --no-deps symlink_data
+[1.079s] running develop
+[1.080s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.080s]   warnings.warn(
+[1.235s] running egg_info
+[1.235s] creating ros2_python_tutorial.egg-info
+[1.235s] writing ros2_python_tutorial.egg-info/PKG-INFO
+[1.235s] writing dependency_links to ros2_python_tutorial.egg-info/dependency_links.txt
+[1.235s] writing entry points to ros2_python_tutorial.egg-info/entry_points.txt
+[1.236s] writing requirements to ros2_python_tutorial.egg-info/requires.txt
+[1.236s] writing top-level names to ros2_python_tutorial.egg-info/top_level.txt
+[1.236s] writing manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'
+[1.238s] reading manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'
+[1.239s] writing manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'
+[1.240s] running build_ext
+[1.240s] Creating /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/python3.10/site-packages/ros2-python-tutorial.egg-link (link to .)
+[1.241s] Installing client script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.241s] Installing custom_msg_publisher script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.241s] Installing double_listener script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.242s] Installing double_talker script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.242s] Installing fast_agent script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.242s] Installing listener script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.242s] Installing python_node script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.242s] Installing server script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.242s] Installing slow_agent script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.242s] Installing talker script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.243s] Installing toggle_led_client script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.243s] Installing toggle_led_service script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+[1.243s] 
+[1.243s] Installed /home/jewoo/ros2_ws/src/build/ros2_python_tutorial
+[1.243s] running symlink_data
+[1.243s] creating /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ament_index
+[1.243s] creating /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ament_index/resource_index
+[1.244s] creating /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ament_index/resource_index/packages
+[1.244s] symbolically linking /home/jewoo/ros2_ws/src/build/ros2_python_tutorial/resource/ros2_python_tutorial -> /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ament_index/resource_index/packages
+[1.244s] symbolically linking /home/jewoo/ros2_ws/src/build/ros2_python_tutorial/package.xml -> /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ros2_python_tutorial
+[1.244s] creating /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ros2_python_tutorial/launch
+[1.244s] symbolically linking /home/jewoo/ros2_ws/src/build/ros2_python_tutorial/launch/turtlesim_mimic_launch.py -> /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ros2_python_tutorial/launch
+[1.273s] Invoked command in '/home/jewoo/ros2_ws/src/build/ros2_python_tutorial' returned '0': PYTHONPATH=/home/jewoo/ros2_ws/src/build/ros2_python_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jewoo/ros2_ws/src/build/ros2_python_tutorial/build --no-deps symlink_data

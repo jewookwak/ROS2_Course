@@ -1,0 +1,71 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jewoo/ros2_ws/src/build/gazebo_sim
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/launch/simulation.launch.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/bookstore.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/city.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/cyberzoo.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/empty.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/factory.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/new_indoor.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/office.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/small_house.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/zigzag.world
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/scripts/servicesim.material
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/bathroom.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/ceiling.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/cubicle_wall.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/door_wall.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/elevator.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/floors.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/hallway.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/plain.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/sink.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/wall_color.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/wall_plain_and_door.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/wall_window_and_elevator.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/window.png
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/bathroom.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/carpet.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/ceiling.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/cubicle_wall.mtl
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/cubicle_wall.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/hallway.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/meeting_room_large.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/meeting_room_small.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/office.mtl
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/office_large.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/office_small.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/reception.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/refreshment_area.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/sink.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/tile.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/wall_door.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/wall_elevator.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/wall_plain.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/wall_window.obj
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/models/empty
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/models/goal_box/model.config
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/models/goal_box/model.sdf
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/gazebo_sim.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/ament_index/resource_index/package_run_dependencies/gazebo_sim
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/ament_index/resource_index/parent_prefix_path/gazebo_sim
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/ament_prefix_path.sh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/path.sh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/path.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/local_setup.bash
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/local_setup.sh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/local_setup.zsh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/local_setup.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/package.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/ament_index/resource_index/packages/gazebo_sim
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/cmake/gazebo_simConfig.cmake
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/cmake/gazebo_simConfig-version.cmake
+-- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/package.xml

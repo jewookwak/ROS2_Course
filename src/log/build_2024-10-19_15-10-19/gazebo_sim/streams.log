@@ -1,0 +1,77 @@
+[0.022s] Invoking command in '/home/jewoo/ros2_ws/src/build/gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake /home/jewoo/ros2_ws/src/PIC4rl_gym/gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/gazebo_sim
+[0.267s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.268s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.268s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.282s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.397s] -- Configuring done
+[0.399s] -- Generating done
+[0.400s] -- Build files have been written to: /home/jewoo/ros2_ws/src/build/gazebo_sim
+[0.513s] Invoked command in '/home/jewoo/ros2_ws/src/build/gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake /home/jewoo/ros2_ws/src/PIC4rl_gym/gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/gazebo_sim
+[0.515s] Invoking command in '/home/jewoo/ros2_ws/src/build/gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/src/build/gazebo_sim -- -j12 -l12
+[0.550s] Invoked command in '/home/jewoo/ros2_ws/src/build/gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/src/build/gazebo_sim -- -j12 -l12
+[0.580s] Invoking command in '/home/jewoo/ros2_ws/src/build/gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --install /home/jewoo/ros2_ws/src/build/gazebo_sim
+[0.587s] -- Install configuration: ""
+[0.587s] -- Execute custom install script
+[0.587s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/launch/simulation.launch.py
+[0.596s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/bookstore.world
+[0.604s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/city.world
+[0.612s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/cyberzoo.world
+[0.620s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/empty.world
+[0.628s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/factory.world
+[0.636s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/new_indoor.world
+[0.645s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/office.world
+[0.654s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/small_house.world
+[0.662s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/worlds/zigzag.world
+[0.670s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/scripts/servicesim.material
+[0.678s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/bathroom.png
+[0.686s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/ceiling.png
+[0.693s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/cubicle_wall.png
+[0.701s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/door_wall.png
+[0.710s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/elevator.png
+[0.718s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/floors.png
+[0.726s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/hallway.png
+[0.734s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/plain.png
+[0.744s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/sink.png
+[0.752s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/wall_color.png
+[0.760s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/wall_plain_and_door.png
+[0.768s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/wall_window_and_elevator.png
+[0.776s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/materials/textures/window.png
+[0.784s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/bathroom.obj
+[0.793s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/carpet.obj
+[0.802s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/ceiling.obj
+[0.811s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/cubicle_wall.mtl
+[0.820s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/cubicle_wall.obj
+[0.830s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/hallway.obj
+[0.840s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/meeting_room_large.obj
+[0.846s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/meeting_room_small.obj
+[0.854s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/office.mtl
+[0.863s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/office_large.obj
+[0.871s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/office_small.obj
+[0.879s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/reception.obj
+[0.887s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/refreshment_area.obj
+[0.895s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/sink.obj
+[0.903s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/tile.obj
+[0.911s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/wall_door.obj
+[0.919s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/wall_elevator.obj
+[0.927s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/wall_plain.obj
+[0.935s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/media/meshes/wall_window.obj
+[0.944s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/models/empty
+[0.952s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/models/goal_box/model.config
+[0.960s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/models/goal_box/model.sdf
+[0.968s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/gazebo_sim.dsv
+[0.976s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/ament_index/resource_index/package_run_dependencies/gazebo_sim
+[0.984s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/ament_index/resource_index/parent_prefix_path/gazebo_sim
+[0.992s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/ament_prefix_path.sh
+[1.000s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/ament_prefix_path.dsv
+[1.008s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/path.sh
+[1.016s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/environment/path.dsv
+[1.024s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/local_setup.bash
+[1.032s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/local_setup.sh
+[1.041s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/local_setup.zsh
+[1.049s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/local_setup.dsv
+[1.056s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/package.dsv
+[1.064s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/ament_index/resource_index/packages/gazebo_sim
+[1.072s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/cmake/gazebo_simConfig.cmake
+[1.080s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/cmake/gazebo_simConfig-version.cmake
+[1.088s] -- Symlinking: /home/jewoo/ros2_ws/src/install/gazebo_sim/share/gazebo_sim/package.xml
+[1.098s] Invoked command in '/home/jewoo/ros2_ws/src/build/gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --install /home/jewoo/ros2_ws/src/build/gazebo_sim

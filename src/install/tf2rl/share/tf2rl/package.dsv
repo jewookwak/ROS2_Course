@@ -1,0 +1,6 @@
+source;share/tf2rl/hook/pythonpath.ps1
+source;share/tf2rl/hook/pythonpath.dsv
+source;share/tf2rl/hook/pythonpath.sh
+source;../../build/tf2rl/share/tf2rl/hook/pythonpath_develop.ps1
+source;../../build/tf2rl/share/tf2rl/hook/pythonpath_develop.dsv
+source;../../build/tf2rl/share/tf2rl/hook/pythonpath_develop.sh

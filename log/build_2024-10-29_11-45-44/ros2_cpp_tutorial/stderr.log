@@ -1,0 +1,7 @@
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:[m[K In member function ‘[01m[Kvoid TurtlebotVisualizer::timer_callback()[m[K’:
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:52:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kx[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   52 |     [01;35m[Kp.x = x[m[K;
+      |     [01;35m[K~~~~^~~[m[K
+[01m[K/home/jewoo/ros2_ws/src/ros2_cpp_tutorial/src/turtlebot_visualizer.cpp:53:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ky[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   53 |     [01;35m[Kp.y = y[m[K;
+      |     [01;35m[K~~~~^~~[m[K

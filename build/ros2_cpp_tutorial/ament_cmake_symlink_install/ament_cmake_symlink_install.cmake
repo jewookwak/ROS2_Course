@@ -346,6 +346,18 @@ include("/home/jewoo/ros2_ws/build/ros2_cpp_tutorial/ament_cmake_symlink_install
 # install("TARGETS" "cpp_node" "DESTINATION" "lib/ros2_cpp_tutorial")
 include("/home/jewoo/ros2_ws/build/ros2_cpp_tutorial/ament_cmake_symlink_install_targets_11_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install("TARGETS" "turtlebot_controller" "DESTINATION" "lib/ros2_cpp_tutorial")
+include("/home/jewoo/ros2_ws/build/ros2_cpp_tutorial/ament_cmake_symlink_install_targets_12_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "square" "DESTINATION" "lib/ros2_cpp_tutorial")
+include("/home/jewoo/ros2_ws/build/ros2_cpp_tutorial/ament_cmake_symlink_install_targets_13_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "minimal_param_node" "DESTINATION" "lib/ros2_cpp_tutorial")
+include("/home/jewoo/ros2_ws/build/ros2_cpp_tutorial/ament_cmake_symlink_install_targets_14_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "turtlebot_visualizer" "DESTINATION" "lib/ros2_cpp_tutorial")
+include("/home/jewoo/ros2_ws/build/ros2_cpp_tutorial/ament_cmake_symlink_install_targets_15_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(DIRECTORY "launch" "DESTINATION" "share/ros2_cpp_tutorial")
 ament_cmake_symlink_install_directory("/home/jewoo/ros2_ws/src/ros2_cpp_tutorial" DIRECTORY "launch" "DESTINATION" "share/ros2_cpp_tutorial")
 

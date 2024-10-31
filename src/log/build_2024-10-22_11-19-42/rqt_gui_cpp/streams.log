@@ -1,0 +1,21 @@
+[0.047s] Invoking command in '/home/jewoo/ros2_ws/src/build/rqt_gui_cpp': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_gui_cpp
+[0.580s] -- Configuring incomplete, errors occurred!
+[0.580s] See also "/home/jewoo/ros2_ws/src/build/rqt_gui_cpp/CMakeFiles/CMakeOutput.log".
+[0.580s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.581s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.581s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.581s]   CMake did not find one.
+[0.581s] 
+[0.581s]   Could not find a package configuration file provided by "catkin" with any
+[0.582s]   of the following names:
+[0.582s] 
+[0.582s]     catkinConfig.cmake
+[0.582s]     catkin-config.cmake
+[0.582s] 
+[0.582s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.583s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.583s]   provides a separate development package or SDK, be sure it has been
+[0.583s]   installed.
+[0.583s] 
+[0.583s] [0m
+[0.584s] Invoked command in '/home/jewoo/ros2_ws/src/build/rqt_gui_cpp' returned '1': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_gui_cpp

@@ -1,0 +1,8 @@
+setup.py
+pic4rl/__init__.py
+pic4rl/plot_reward.py
+pic4rl/sensors.py
+pic4rl.egg-info/PKG-INFO
+pic4rl.egg-info/SOURCES.txt
+pic4rl.egg-info/dependency_links.txt
+pic4rl.egg-info/top_level.txt

@@ -1,5 +1,0 @@
-[0.025s] Invoking command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/build/ros2_cpp_tutorial -- -j12 -l12
-[0.108s] [ 33%] Built target cpp_node
-[0.116s] [ 66%] Built target talker
-[0.120s] [100%] Built target listener
-[0.389s] Invoked command in '/home/jewoo/ros2_ws/build/ros2_cpp_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/build/ros2_cpp_tutorial -- -j12 -l12

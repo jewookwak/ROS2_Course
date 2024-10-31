@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_generator_c[0m
+[  2%] Built target ros2_interfaces_tutorial__cpp
+[ 12%] Built target ros2_interfaces_tutorial__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_ros2_interfaces_tutorial
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c[0m
+[ 23%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_cpp
+[ 34%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_cpp
+[ 44%] Built target ros2_interfaces_tutorial__rosidl_typesupport_c
+[ 55%] Built target ros2_interfaces_tutorial__rosidl_typesupport_cpp
+[ 65%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c
+[ 76%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c
+[ 76%] Built target ros2_interfaces_tutorial
+[ 78%] Built target ros2_interfaces_tutorial__py
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_generator_py[0m
+[ 87%] Built target ros2_interfaces_tutorial__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c__pyext[0m
+[ 91%] Built target ros2_interfaces_tutorial__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target ros2_interfaces_tutorial__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ros2_interfaces_tutorial__rosidl_typesupport_c__pyext
+running egg_info
+writing ros2_interfaces_tutorial.egg-info/PKG-INFO
+writing dependency_links to ros2_interfaces_tutorial.egg-info/dependency_links.txt
+writing top-level names to ros2_interfaces_tutorial.egg-info/top_level.txt
+reading manifest file 'ros2_interfaces_tutorial.egg-info/SOURCES.txt'

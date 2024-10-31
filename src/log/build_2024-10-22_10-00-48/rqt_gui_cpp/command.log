@@ -1,0 +1,2 @@
+Invoking command in '/home/jewoo/ros2_ws/src/build/rqt_gui_cpp': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_gui_cpp
+Invoked command in '/home/jewoo/ros2_ws/src/build/rqt_gui_cpp' returned '1': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_gui_cpp

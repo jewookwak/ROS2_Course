@@ -1,0 +1,1571 @@
+[0.153s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.153s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7befd838f640>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7befd838e800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7befd838e800>>)
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.240s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jewoo/ros2_ws/src'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/gazebo_sim) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'PIC4rl_gym/gazebo_sim' with type 'ros.ament_cmake' and name 'gazebo_sim'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/images) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/pic4rl) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'PIC4rl_gym/pic4rl' with type 'ros.ament_cmake' and name 'pic4rl'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(PIC4rl_gym/tf2rl) by extension 'python_setup_py'
+[0.566s] DEBUG:colcon.colcon_core.package_identification:Package 'PIC4rl_gym/tf2rl' with type 'python' and name 'tf2rl'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extension 'python'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extensions ['python_setup_py']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(my_gazebo_package) by extension 'python_setup_py'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'ros'
+[0.569s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_cpp_tutorial' with type 'ros.ament_cmake' and name 'ros2_cpp_tutorial'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'ros'
+[0.570s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_interfaces_tutorial' with type 'ros.ament_cmake' and name 'ros2_interfaces_tutorial'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_python_tutorial' with type 'ros.ament_python' and name 'ros2_python_tutorial'
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.605s] ERROR:colcon.colcon_core.package_augmentation:Exception in package augmentation extension 'python_setup_py': 'tests_require'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/package_augmentation/__init__.py", line 99, in augment_packages
+    retval = extension.augment_packages(
+  File "/usr/lib/python3/dist-packages/colcon_core/package_augmentation/__init__.py", line 48, in augment_packages
+    self.augment_package(
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_augmentation/python_setup_py.py", line 47, in augment_package
+    for d in config[option_name] or ()}
+KeyError: 'tests_require'
+
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.611s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jewoo/ros2_ws/install
+[0.613s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 375 installed packages in /opt/ros/humble
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.686s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.ros.ament_python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 17, in <module>
+    from colcon_core.task.python.build import PythonBuildTask
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.689s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.690s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/gazebo_sim', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/PIC4rl_gym/gazebo_sim', 'symlink_install': True, 'test_result_base': None}
+[0.691s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.ros.ament_python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 17, in <module>
+    from colcon_core.task.python.build import PythonBuildTask
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.692s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'cmake_target' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'cmake_clean_first' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'cmake_force_configure' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'ament_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'pic4rl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.693s] DEBUG:colcon.colcon_core.verb:Building package 'pic4rl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/pic4rl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/pic4rl', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/PIC4rl_gym/pic4rl', 'symlink_install': True, 'test_result_base': None}
+[0.694s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.ros.ament_python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 17, in <module>
+    from colcon_core.task.python.build import PythonBuildTask
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.694s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.695s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_interfaces_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.696s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.ros.ament_python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 17, in <module>
+    from colcon_core.task.python.build import PythonBuildTask
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.696s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.696s] WARNING:colcon.colcon_core.verb:No task extension to 'build' a 'ros.ament_python' package
+[0.697s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.ros.ament_python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 17, in <module>
+    from colcon_core.task.python.build import PythonBuildTask
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.698s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.698s] WARNING:colcon.colcon_core.verb:No task extension to 'build' a 'python' package
+[0.699s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.ros.ament_python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 17, in <module>
+    from colcon_core.task.python.build import PythonBuildTask
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.699s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.task.build.python': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 24, in <module>
+    from colcon_core.task.python.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/template/__init__.py", line 4, in <module>
+    from colcon_core.shell.template import expand_template  # noqa: F401
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_cpp_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/ros2_cpp_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.700s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.701s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial' with build type 'ament_cmake'
+[0.701s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial'
+[0.705s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bash': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_bash/shell/bash.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.706s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.powershell': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_powershell/shell/powershell.py", line 17, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.707s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bat': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/bat.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.708s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.dsv': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 9, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.709s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.sh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.710s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.zsh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_zsh/shell/zsh.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.710s] ERROR:colcon.colcon_cmake.task.cmake.build:Could not find a shell extension for the command environment
+[0.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jewoo/ros2_ws/src/PIC4rl_gym/gazebo_sim' with build type 'ament_cmake'
+[0.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/PIC4rl_gym/gazebo_sim'
+[0.712s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bash': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_bash/shell/bash.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.713s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.powershell': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_powershell/shell/powershell.py", line 17, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.713s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bat': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/bat.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.714s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.dsv': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 9, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.714s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.sh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.714s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.zsh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_zsh/shell/zsh.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.715s] ERROR:colcon.colcon_cmake.task.cmake.build:Could not find a shell extension for the command environment
+[0.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jewoo/ros2_ws/src/PIC4rl_gym/pic4rl' with build type 'ament_cmake'
+[0.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/PIC4rl_gym/pic4rl'
+[0.716s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bash': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_bash/shell/bash.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.717s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.powershell': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_powershell/shell/powershell.py", line 17, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.717s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bat': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/bat.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.718s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.dsv': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 9, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.719s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.sh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.720s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.zsh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_zsh/shell/zsh.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.720s] ERROR:colcon.colcon_cmake.task.cmake.build:Could not find a shell extension for the command environment
+[0.747s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bash': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_bash/shell/bash.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.747s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.powershell': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_powershell/shell/powershell.py", line 17, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.748s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bat': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/bat.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.748s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.dsv': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 9, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.749s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.sh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.750s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.zsh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_zsh/shell/zsh.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_sim)
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/gazebo_sim' for CMake module files
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/gazebo_sim' for CMake config files
+[0.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_sim', 'cmake_prefix_path')
+[0.759s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bash': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_bash/shell/bash.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.760s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.powershell': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_powershell/shell/powershell.py", line 17, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.761s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bat': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/bat.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.761s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.dsv': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 9, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.762s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.sh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.763s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.zsh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_zsh/shell/zsh.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.763s] ERROR:colcon.colcon_core.environment:Exception in environment extension 'cmake_prefix_path': Could not find a primary shell extension for creating an environment hook
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 193, in create_environment_hooks
+    hooks = extension.create_environment_hooks(prefix_path, pkg_name)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/environment/cmake_prefix_path.py", line 28, in create_environment_hooks
+    hooks += create_environment_hook(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 446, in create_environment_hook
+    raise RuntimeError(
+RuntimeError: Could not find a primary shell extension for creating an environment hook
+
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/gazebo_sim/bin'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/gazebo_sim/lib/pkgconfig/gazebo_sim.pc'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/gazebo_sim/lib/python3.10/site-packages'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/gazebo_sim/bin'
+[0.765s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bash': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_bash/shell/bash.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.765s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.powershell': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_powershell/shell/powershell.py", line 17, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.767s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bat': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/bat.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.770s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.dsv': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 9, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.770s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.sh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.771s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.zsh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_zsh/shell/zsh.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jewoo/ros2_ws/src/install/gazebo_sim/share/colcon-core/packages/gazebo_sim)
+[0.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.865s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.870s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.884s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.885s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bash': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_bash/shell/bash.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.886s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.powershell': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_powershell/shell/powershell.py", line 17, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.886s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.bat': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/bat.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.887s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.dsv': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 9, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.887s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.sh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 15, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+
+[0.888s] ERROR:colcon.colcon_core.extension_point:Exception loading extension 'colcon_core.shell.zsh': cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 169, in load_extension_points
+    extension_type = load_extension_point(name, value, group)
+  File "/usr/lib/python3/dist-packages/colcon_core/extension_point.py", line 210, in load_extension_point
+    return EntryPoint(name, value, group).load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3/dist-packages/colcon_zsh/shell/zsh.py", line 13, in <module>
+    from colcon_core.shell.template import expand_template
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 19, in <module>
+    raise e from None
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 10, in <module>
+    from em import OVERRIDE_OPT
+ImportError: cannot import name 'OVERRIDE_OPT' from 'em' (/home/jewoo/.local/lib/python3.10/site-packages/em.py) The Python package 'empy' must be installed and 'em' must not be installed since both packages share the same namespace
+

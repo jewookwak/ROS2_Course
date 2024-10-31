@@ -1,0 +1,1 @@
+/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial/ament_cmake_environment_hooks/local_setup.zsh

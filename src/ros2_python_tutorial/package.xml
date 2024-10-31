@@ -11,6 +11,9 @@
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>example_interfaces</exec_depend>
   <exec_depend>ros2_interface_tutorial</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
 
 
 

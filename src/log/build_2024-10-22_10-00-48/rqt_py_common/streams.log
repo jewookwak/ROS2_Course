@@ -1,0 +1,32 @@
+[0.635s] Invoking command in '/home/jewoo/ros2_ws/src/build/rqt_py_common': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_py_common -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_py_common
+[0.716s] -- The C compiler identification is GNU 11.4.0
+[0.819s] -- The CXX compiler identification is GNU 11.4.0
+[0.836s] -- Detecting C compiler ABI info
+[0.945s] -- Detecting C compiler ABI info - done
+[0.963s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.964s] -- Detecting C compile features
+[0.965s] -- Detecting C compile features - done
+[0.970s] -- Detecting CXX compiler ABI info
+[1.127s] -- Detecting CXX compiler ABI info - done
+[1.145s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.145s] -- Detecting CXX compile features
+[1.146s] -- Detecting CXX compile features - done
+[1.166s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.166s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.166s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.166s]   CMake did not find one.
+[1.166s] 
+[1.166s]   Could not find a package configuration file provided by "catkin" with any
+[1.167s]   of the following names:
+[1.167s] 
+[1.167s]     catkinConfig.cmake
+[1.167s]     catkin-config.cmake
+[1.167s] 
+[1.167s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.167s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.167s]   provides a separate development package or SDK, be sure it has been
+[1.167s]   installed.
+[1.167s] 
+[1.167s] [0m
+[1.168s] -- Configuring incomplete, errors occurred!
+[1.168s] See also "/home/jewoo/ros2_ws/src/build/rqt_py_common/CMakeFiles/CMakeOutput.log".

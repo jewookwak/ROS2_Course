@@ -1,0 +1,26 @@
+running develop
+running egg_info
+writing ros2_python_tutorial.egg-info/PKG-INFO
+writing dependency_links to ros2_python_tutorial.egg-info/dependency_links.txt
+writing entry points to ros2_python_tutorial.egg-info/entry_points.txt
+writing requirements to ros2_python_tutorial.egg-info/requires.txt
+writing top-level names to ros2_python_tutorial.egg-info/top_level.txt
+reading manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'
+writing manifest file 'ros2_python_tutorial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/python3.10/site-packages/ros2-python-tutorial.egg-link (link to .)
+Installing client script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing custom_msg_publisher script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing double_listener script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing double_talker script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing fast_agent script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing listener script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing python_node script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing server script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing slow_agent script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing talker script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing toggle_led_client script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+Installing toggle_led_service script to /home/jewoo/ros2_ws/src/install/ros2_python_tutorial/lib/ros2_python_tutorial
+
+Installed /home/jewoo/ros2_ws/src/build/ros2_python_tutorial
+running symlink_data

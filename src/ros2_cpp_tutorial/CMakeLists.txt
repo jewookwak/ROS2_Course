@@ -11,6 +11,9 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(example_interfaces REQUIRED)
 find_package(std_srvs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
+find_package(visualization_msgs REQUIRED)
 
 add_executable(talker src/publisher_member_function.cpp)
 ament_target_dependencies(talker rclcpp std_msgs)
@@ -96,7 +99,30 @@ target_compile_features(cpp_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and 
 install(TARGETS cpp_node
   DESTINATION lib/${PROJECT_NAME})
 
+add_executable(turtlebot_controller src/turtlebot_controller.cpp)
+ament_target_dependencies(turtlebot_controller rclcpp geometry_msgs turtlesim)
+install(TARGETS 
+  turtlebot_controller
+  DESTINATION lib/${PROJECT_NAME})
 
+add_executable(square src/square.cpp)
+ament_target_dependencies(square rclcpp geometry_msgs turtlesim)
+install(TARGETS 
+  square
+  DESTINATION lib/${PROJECT_NAME})
+add_executable(minimal_param_node src/cpp_parameters_node.cpp)
+ament_target_dependencies(minimal_param_node rclcpp)
+install(TARGETS
+  minimal_param_node
+  DESTINATION lib/${PROJECT_NAME})  
+  
+add_executable(turtlebot_visualizer src/turtlebot_visualizer.cpp)
+ament_target_dependencies(turtlebot_visualizer rclcpp geometry_msgs turtlesim visualization_msgs)
+install(TARGETS 
+  turtlebot_visualizer
+  DESTINATION lib/${PROJECT_NAME})
+  
+  
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

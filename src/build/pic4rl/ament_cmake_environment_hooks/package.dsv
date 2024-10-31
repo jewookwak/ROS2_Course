@@ -1,0 +1,4 @@
+source;share/pic4rl/local_setup.bash
+source;share/pic4rl/local_setup.dsv
+source;share/pic4rl/local_setup.sh
+source;share/pic4rl/local_setup.zsh

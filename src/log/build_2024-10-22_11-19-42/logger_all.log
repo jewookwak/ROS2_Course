@@ -1,0 +1,318 @@
+[0.195s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.196s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78bece0e4e50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78bece0e4340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78bece0e4340>>)
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.493s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jewoo/ros2_ws/src'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cpp_tutorial) by extension 'ros'
+[0.541s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_cpp_tutorial' with type 'ros.ament_cmake' and name 'ros2_cpp_tutorial'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_interfaces_tutorial) by extension 'ros'
+[0.543s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_interfaces_tutorial' with type 'ros.ament_cmake' and name 'ros2_interfaces_tutorial'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extensions ['colcon_pkg']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_python_tutorial) by extension 'ros'
+[0.545s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_python_tutorial' with type 'ros.ament_python' and name 'ros2_python_tutorial'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extensions ['colcon_meta']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extension 'colcon_meta'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extensions ['ros']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extension 'ros'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extensions ['cmake', 'python']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extension 'cmake'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extension 'python'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extensions ['python_setup_py']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt) by extension 'python_setup_py'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt) by extension 'ros'
+[0.548s] DEBUG:colcon.colcon_core.package_identification:Package 'rqt/rqt' with type 'ros.catkin' and name 'rqt'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui) by extension 'ros'
+[0.556s] DEBUG:colcon.colcon_core.package_identification:Package 'rqt/rqt_gui' with type 'ros.catkin' and name 'rqt_gui'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_cpp) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'rqt/rqt_gui_cpp' with type 'ros.catkin' and name 'rqt_gui_cpp'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_gui_py) by extension 'ros'
+[0.560s] DEBUG:colcon.colcon_core.package_identification:Package 'rqt/rqt_gui_py' with type 'ros.catkin' and name 'rqt_gui_py'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rqt/rqt_py_common) by extension 'ros'
+[0.563s] DEBUG:colcon.colcon_core.package_identification:Package 'rqt/rqt_py_common' with type 'ros.catkin' and name 'rqt_py_common'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extensions ['colcon_meta']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extension 'colcon_meta'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rqt_graph) by extension 'ros'
+[0.567s] DEBUG:colcon.colcon_core.package_identification:Package 'rqt_graph' with type 'ros.catkin' and name 'rqt_graph'
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.611s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:rqt_gui_py depends on rqt_gui which has version 0.5.3 which satisfies to be greater than or equal to 0.3.0
+[0.611s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:rqt depends on rqt_gui_py which has version 0.5.3 which satisfies to be greater than or equal to 0.3.0
+[0.611s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:rqt depends on rqt_gui which has version 0.5.3 which satisfies to be greater than or equal to 0.3.0
+[0.611s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:rqt depends on rqt_gui_cpp which has version 0.5.3 which satisfies to be greater than or equal to 0.3.0
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.616s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jewoo/ros2_ws/install
+[0.619s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.703s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'rqt_graph' is in: /opt/ros/humble
+	'rqt_gui' is in: /opt/ros/humble
+	'rqt_gui_cpp' is in: /opt/ros/humble
+	'rqt_py_common' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding rqt_graph rqt_gui rqt_gui_cpp rqt_py_common
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'ros2_interfaces_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_interfaces_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/ros2_interfaces_tutorial', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'ros2_python_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.707s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_python_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/ros2_python_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/ros2_python_tutorial', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/ros2_python_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'cmake_target' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/rqt_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/rqt_gui', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/rqt/rqt_gui', 'symlink_install': True, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.709s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_gui_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/rqt_gui_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/rqt_gui_cpp', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp', 'symlink_install': True, 'test_result_base': None}
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'cmake_target' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'rqt_py_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.710s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_py_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/rqt_py_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/rqt_py_common', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/rqt/rqt_py_common', 'symlink_install': True, 'test_result_base': None}
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'ros2_cpp_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.710s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_cpp_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/ros2_cpp_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/ros2_cpp_tutorial', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/ros2_cpp_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'cmake_target' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'rqt_gui_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.711s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_gui_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/rqt_gui_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/rqt_gui_py', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/rqt/rqt_gui_py', 'symlink_install': True, 'test_result_base': None}
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'cmake_target' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'cmake_clean_first' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'cmake_force_configure' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'ament_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.712s] DEBUG:colcon.colcon_core.verb:Building package 'rqt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/rqt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/rqt', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/rqt/rqt', 'symlink_install': True, 'test_result_base': None}
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'cmake_target' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'cmake_clean_cache' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'cmake_clean_first' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'cmake_force_configure' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'ament_cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'catkin_cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'rqt_graph' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.713s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_graph' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jewoo/ros2_ws/src/build/rqt_graph', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jewoo/ros2_ws/src/install/rqt_graph', 'merge_install': False, 'path': '/home/jewoo/ros2_ws/src/rqt_graph', 'symlink_install': True, 'test_result_base': None}
+[0.714s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.716s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jewoo/ros2_ws/src/rqt/rqt_gui' with build type 'catkin'
+[0.716s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/rqt/rqt_gui'
+[0.720s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial' with build type 'ament_cmake'
+[0.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/ros2_interfaces_tutorial'
+[0.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.742s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp' with build type 'catkin'
+[0.742s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp'
+[0.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.749s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jewoo/ros2_ws/src/ros2_python_tutorial' with build type 'ament_python'
+[0.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_python_tutorial', 'ament_prefix_path')
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/ament_prefix_path.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/ament_prefix_path.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jewoo/ros2_ws/src/install/ros2_python_tutorial/share/ros2_python_tutorial/hook/ament_prefix_path.sh'
+[0.753s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jewoo/ros2_ws/src/rqt/rqt_py_common' with build type 'catkin'
+[0.759s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jewoo/ros2_ws/src/rqt/rqt_py_common'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/src/build/rqt_gui': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_gui -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_gui
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jewoo/ros2_ws/install/ros2_python_tutorial /usr/bin/cmake --build /home/jewoo/ros2_ws/src/build/ros2_interfaces_tutorial -- -j12 -l12
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/src/build/rqt_gui_cpp': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_gui_cpp
+[1.287s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jewoo/ros2_ws/src/ros2_python_tutorial'
+[1.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jewoo/ros2_ws/src/build/rqt_py_common': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_py_common -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_py_common
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jewoo/ros2_ws/src/build/rqt_gui_cpp' returned '1': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_gui_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_gui_cpp
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jewoo/ros2_ws/src/build/rqt_gui' returned '1': /usr/bin/cmake /home/jewoo/ros2_ws/src/rqt/rqt_gui -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jewoo/ros2_ws/src/install/rqt_gui
+[1.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_gui)
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/rqt_gui' for CMake module files
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/rqt_gui' for CMake config files
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/rqt_gui/bin'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/rqt_gui/lib/pkgconfig/rqt_gui.pc'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/rqt_gui/lib/python3.10/site-packages'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/jewoo/ros2_ws/src/install/rqt_gui/bin'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/src/install/rqt_gui/share/rqt_gui/package.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jewoo/ros2_ws/src/install/rqt_gui/share/rqt_gui/package.dsv'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/src/install/rqt_gui/share/rqt_gui/package.sh'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/src/install/rqt_gui/share/rqt_gui/package.bash'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/jewoo/ros2_ws/src/install/rqt_gui/share/rqt_gui/package.zsh'
+[1.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jewoo/ros2_ws/src/install/rqt_gui/share/colcon-core/packages/rqt_gui)
+[2.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.050s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.058s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.059s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.076s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jewoo/ros2_ws/src/install/local_setup.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jewoo/ros2_ws/src/install/_local_setup_util_ps1.py'
+[2.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jewoo/ros2_ws/src/install/setup.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jewoo/ros2_ws/src/install/local_setup.sh'
+[2.084s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jewoo/ros2_ws/src/install/_local_setup_util_sh.py'
+[2.085s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jewoo/ros2_ws/src/install/setup.sh'
+[2.086s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jewoo/ros2_ws/src/install/local_setup.bash'
+[2.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jewoo/ros2_ws/src/install/setup.bash'
+[2.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jewoo/ros2_ws/src/install/local_setup.zsh'
+[2.090s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jewoo/ros2_ws/src/install/setup.zsh'

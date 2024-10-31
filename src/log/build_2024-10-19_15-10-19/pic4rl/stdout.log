@@ -1,0 +1,121 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jewoo/ros2_ws/src/build/pic4rl
+Built target ament_cmake_python_symlink_pic4rl
+running egg_info
+creating pic4rl.egg-info
+writing pic4rl.egg-info/PKG-INFO
+writing dependency_links to pic4rl.egg-info/dependency_links.txt
+writing top-level names to pic4rl.egg-info/top_level.txt
+writing manifest file 'pic4rl.egg-info/SOURCES.txt'
+reading manifest file 'pic4rl.egg-info/SOURCES.txt'
+writing manifest file 'pic4rl.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_pic4rl_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/environment/pythonpath.sh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/environment/pythonpath.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/__init__.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/plot_reward.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/sensors.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Following/pic4rl_environment_lidar_pf.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Following/pic4rl_lidar_pf.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Vineyards/pic4rl_environment_camera_depth.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Vineyards/pic4rl_vineyard.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose/pic4rl_camera.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose/pic4rl_environment_camera_depth.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose/pic4rl_environment_lidar.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose/pic4rl_lidar.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing/compute_avg_metrics.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing/evaluate_controller.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing/evaluate_navigation.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing/nav_metrics.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils/env_utils.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils/get_entity_client.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils/launch_utils.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils/model_utils.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/lib/pic4rl/go_to_pose_lidar
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/lib/pic4rl/go_to_pose_camera
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/lib/pic4rl/vineyards_camera
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/launch/pic4rl_starter.launch.py
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/config/main_params.yaml
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/config/training_params.yaml
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/bieta.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/bookstore.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/factory.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/filare_ad_arco.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/hospital.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/indoor.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/lattuga.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/lavanda.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/new_indoor.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/pergola.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/pero.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/pero2.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/pero_medio.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/pero_medio_rows.txt
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/small_house.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/trees.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/tunnel.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/vineyard.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/vineyard_curve.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/vineyard_mix_single_curve1.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/vineyard_mix_single_straight1.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/vineyard_straight.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/testing/zucchini.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/training/filare_ad_arco.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/training/new_indoor.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/training/vineyard_mix.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/training/vineyard_new.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/training/vineyard_straight.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/goals_and_poses/training/zigzag.json
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/ament_index/resource_index/package_run_dependencies/pic4rl
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/ament_index/resource_index/parent_prefix_path/pic4rl
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/environment/ament_prefix_path.sh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/environment/path.sh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/environment/path.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/local_setup.bash
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/local_setup.sh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/local_setup.zsh
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/local_setup.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/package.dsv
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/ament_index/resource_index/packages/pic4rl
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/cmake/pic4rlConfig.cmake
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/cmake/pic4rlConfig-version.cmake
+-- Symlinking: /home/jewoo/ros2_ws/src/install/pic4rl/share/pic4rl/package.xml
+Listing '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/__init__.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/plot_reward.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/sensors.py'...
+Listing '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks'...
+Listing '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Following'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Following/pic4rl_environment_lidar_pf.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Following/pic4rl_lidar_pf.py'...
+Listing '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Vineyards'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Vineyards/pic4rl_environment_camera_depth.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/Vineyards/pic4rl_vineyard.py'...
+Listing '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose/pic4rl_camera.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose/pic4rl_environment_camera_depth.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose/pic4rl_environment_lidar.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/tasks/goToPose/pic4rl_lidar.py'...
+Listing '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing/compute_avg_metrics.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing/evaluate_controller.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing/evaluate_navigation.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/testing/nav_metrics.py'...
+Listing '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils/env_utils.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils/get_entity_client.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils/launch_utils.py'...
+Compiling '/home/jewoo/ros2_ws/src/install/pic4rl/local/lib/python3.10/dist-packages/pic4rl/utils/model_utils.py'...

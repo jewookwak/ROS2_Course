@@ -353,6 +353,58 @@ cpp_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
 .PHONY : cpp_node/fast
 
+#=============================================================================
+# Target rules for targets named turtlebot_controller
+
+# Build rule for target.
+turtlebot_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtlebot_controller
+.PHONY : turtlebot_controller
+
+# fast build rule for target.
+turtlebot_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_controller.dir/build.make CMakeFiles/turtlebot_controller.dir/build
+.PHONY : turtlebot_controller/fast
+
+#=============================================================================
+# Target rules for targets named square
+
+# Build rule for target.
+square: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 square
+.PHONY : square
+
+# fast build rule for target.
+square/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
+.PHONY : square/fast
+
+#=============================================================================
+# Target rules for targets named minimal_param_node
+
+# Build rule for target.
+minimal_param_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 minimal_param_node
+.PHONY : minimal_param_node
+
+# fast build rule for target.
+minimal_param_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_param_node.dir/build.make CMakeFiles/minimal_param_node.dir/build
+.PHONY : minimal_param_node/fast
+
+#=============================================================================
+# Target rules for targets named turtlebot_visualizer
+
+# Build rule for target.
+turtlebot_visualizer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtlebot_visualizer
+.PHONY : turtlebot_visualizer
+
+# fast build rule for target.
+turtlebot_visualizer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_visualizer.dir/build.make CMakeFiles/turtlebot_visualizer.dir/build
+.PHONY : turtlebot_visualizer/fast
+
 src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
 .PHONY : src/add_two_ints_client.o
 
@@ -424,6 +476,30 @@ src/cpp_node.s: src/cpp_node.cpp.s
 src/cpp_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/cpp_node.cpp.s
 .PHONY : src/cpp_node.cpp.s
+
+src/cpp_parameters_node.o: src/cpp_parameters_node.cpp.o
+.PHONY : src/cpp_parameters_node.o
+
+# target to build an object file
+src/cpp_parameters_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_param_node.dir/build.make CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o
+.PHONY : src/cpp_parameters_node.cpp.o
+
+src/cpp_parameters_node.i: src/cpp_parameters_node.cpp.i
+.PHONY : src/cpp_parameters_node.i
+
+# target to preprocess a source file
+src/cpp_parameters_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_param_node.dir/build.make CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.i
+.PHONY : src/cpp_parameters_node.cpp.i
+
+src/cpp_parameters_node.s: src/cpp_parameters_node.cpp.s
+.PHONY : src/cpp_parameters_node.s
+
+# target to generate assembly for a file
+src/cpp_parameters_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_param_node.dir/build.make CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.s
+.PHONY : src/cpp_parameters_node.cpp.s
 
 src/custom_msg_publisher.o: src/custom_msg_publisher.cpp.o
 .PHONY : src/custom_msg_publisher.o
@@ -569,6 +645,30 @@ src/publisher_member_function.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_member_function.cpp.s
 .PHONY : src/publisher_member_function.cpp.s
 
+src/square.o: src/square.cpp.o
+.PHONY : src/square.o
+
+# target to build an object file
+src/square.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/src/square.cpp.o
+.PHONY : src/square.cpp.o
+
+src/square.i: src/square.cpp.i
+.PHONY : src/square.i
+
+# target to preprocess a source file
+src/square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/src/square.cpp.i
+.PHONY : src/square.cpp.i
+
+src/square.s: src/square.cpp.s
+.PHONY : src/square.s
+
+# target to generate assembly for a file
+src/square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/src/square.cpp.s
+.PHONY : src/square.cpp.s
+
 src/subscriber_member_function.o: src/subscriber_member_function.cpp.o
 .PHONY : src/subscriber_member_function.o
 
@@ -641,6 +741,54 @@ src/toggle_led_service.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_service.dir/build.make CMakeFiles/led_service.dir/src/toggle_led_service.cpp.s
 .PHONY : src/toggle_led_service.cpp.s
 
+src/turtlebot_controller.o: src/turtlebot_controller.cpp.o
+.PHONY : src/turtlebot_controller.o
+
+# target to build an object file
+src/turtlebot_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_controller.dir/build.make CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.o
+.PHONY : src/turtlebot_controller.cpp.o
+
+src/turtlebot_controller.i: src/turtlebot_controller.cpp.i
+.PHONY : src/turtlebot_controller.i
+
+# target to preprocess a source file
+src/turtlebot_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_controller.dir/build.make CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.i
+.PHONY : src/turtlebot_controller.cpp.i
+
+src/turtlebot_controller.s: src/turtlebot_controller.cpp.s
+.PHONY : src/turtlebot_controller.s
+
+# target to generate assembly for a file
+src/turtlebot_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_controller.dir/build.make CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.s
+.PHONY : src/turtlebot_controller.cpp.s
+
+src/turtlebot_visualizer.o: src/turtlebot_visualizer.cpp.o
+.PHONY : src/turtlebot_visualizer.o
+
+# target to build an object file
+src/turtlebot_visualizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_visualizer.dir/build.make CMakeFiles/turtlebot_visualizer.dir/src/turtlebot_visualizer.cpp.o
+.PHONY : src/turtlebot_visualizer.cpp.o
+
+src/turtlebot_visualizer.i: src/turtlebot_visualizer.cpp.i
+.PHONY : src/turtlebot_visualizer.i
+
+# target to preprocess a source file
+src/turtlebot_visualizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_visualizer.dir/build.make CMakeFiles/turtlebot_visualizer.dir/src/turtlebot_visualizer.cpp.i
+.PHONY : src/turtlebot_visualizer.cpp.i
+
+src/turtlebot_visualizer.s: src/turtlebot_visualizer.cpp.s
+.PHONY : src/turtlebot_visualizer.s
+
+# target to generate assembly for a file
+src/turtlebot_visualizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_visualizer.dir/build.make CMakeFiles/turtlebot_visualizer.dir/src/turtlebot_visualizer.cpp.s
+.PHONY : src/turtlebot_visualizer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -663,11 +811,15 @@ help:
 	@echo "... led_client"
 	@echo "... led_service"
 	@echo "... listener"
+	@echo "... minimal_param_node"
 	@echo "... p1_publisher"
 	@echo "... p1_subscriber"
 	@echo "... server"
 	@echo "... slow_agent"
+	@echo "... square"
 	@echo "... talker"
+	@echo "... turtlebot_controller"
+	@echo "... turtlebot_visualizer"
 	@echo "... src/add_two_ints_client.o"
 	@echo "... src/add_two_ints_client.i"
 	@echo "... src/add_two_ints_client.s"
@@ -677,6 +829,9 @@ help:
 	@echo "... src/cpp_node.o"
 	@echo "... src/cpp_node.i"
 	@echo "... src/cpp_node.s"
+	@echo "... src/cpp_parameters_node.o"
+	@echo "... src/cpp_parameters_node.i"
+	@echo "... src/cpp_parameters_node.s"
 	@echo "... src/custom_msg_publisher.o"
 	@echo "... src/custom_msg_publisher.i"
 	@echo "... src/custom_msg_publisher.s"
@@ -695,6 +850,9 @@ help:
 	@echo "... src/publisher_member_function.o"
 	@echo "... src/publisher_member_function.i"
 	@echo "... src/publisher_member_function.s"
+	@echo "... src/square.o"
+	@echo "... src/square.i"
+	@echo "... src/square.s"
 	@echo "... src/subscriber_member_function.o"
 	@echo "... src/subscriber_member_function.i"
 	@echo "... src/subscriber_member_function.s"
@@ -704,6 +862,12 @@ help:
 	@echo "... src/toggle_led_service.o"
 	@echo "... src/toggle_led_service.i"
 	@echo "... src/toggle_led_service.s"
+	@echo "... src/turtlebot_controller.o"
+	@echo "... src/turtlebot_controller.i"
+	@echo "... src/turtlebot_controller.s"
+	@echo "... src/turtlebot_visualizer.o"
+	@echo "... src/turtlebot_visualizer.i"
+	@echo "... src/turtlebot_visualizer.s"
 .PHONY : help
 
 

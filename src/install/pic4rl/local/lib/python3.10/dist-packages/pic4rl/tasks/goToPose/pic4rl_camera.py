@@ -1,0 +1,1 @@
+/home/jewoo/ros2_ws/src/PIC4rl_gym/pic4rl/pic4rl/tasks/goToPose/pic4rl_camera.py

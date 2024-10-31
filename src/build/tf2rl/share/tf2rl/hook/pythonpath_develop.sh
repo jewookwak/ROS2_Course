@@ -1,0 +1,3 @@
+# generated from colcon_core/shell/template/hook_prepend_value.sh.em
+
+_colcon_prepend_unique_value PYTHONPATH "/home/jewoo/ros2_ws/src/build/tf2rl"
